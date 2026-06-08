@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Understanding Your HbA1c: What the Number Really Means | Naas Clinic</title>
+<meta name="description" content="A consultant endocrinologist explains HbA1c — what it measures, what your target should be, when the test is unreliable, and when to seek specialist review.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Understanding Your HbA1c: What the Number Really Means | Naas Clinic">
+<meta property="og:description" content="A consultant endocrinologist explains HbA1c — what it measures, what your target should be, when the test is unreliable, and when to seek specialist review.">
+<meta property="og:image" content="dr-kazmi.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Understanding Your HbA1c: What the Number Really Means | Naas Clinic">
+<meta name="twitter:description" content="A consultant endocrinologist explains HbA1c — what it measures, what your target should be, when the test is unreliable, and when to seek specialist review.">
+<meta property="og:url" content="https://www.naasclinic.ie/blog-hba1c.html">
+<link rel="canonical" href="https://www.naasclinic.ie/blog-hba1c.html">
+<meta name="twitter:image" content="dr-kazmi.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+:root{--navy:#09162A;--gold:#C4903C;--gold-light:#E2B96A;--gold-muted:#9C7228;
+  --crimson:#8B1A2A;--white:#FFFFFF;--text:#1C2A38;--text-mid:#516070;--text-light:#8A96A3;
+  --bg:#F8F7F5;--ease:cubic-bezier(0.25,0.46,0.45,0.94);--t:all 0.38s var(--ease)}
+body{font-family:'Jost',sans-serif;color:var(--text);background:var(--white);line-height:1.65}
+nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;
+  justify-content:space-between;padding:0 clamp(20px,5vw,72px);height:72px;
+  background:rgba(9,22,42,0.97);backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(196,144,60,0.13);transition:var(--t)}
+nav.scrolled{background:rgba(9,22,42,1)}
+.nav-brand{display:flex;flex-direction:column;gap:2px;text-decoration:none}
+.nav-brand-name{font-family:'Cormorant Garamond',serif;font-size:1.12rem;font-weight:500;color:var(--white)}
+.nav-brand-sub{font-size:0.61rem;letter-spacing:0.16em;text-transform:uppercase;color:rgba(196,144,60,0.7)}
+.nav-links{list-style:none;display:flex;align-items:center;gap:32px}
+.nav-links a{font-size:0.77rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;
+  color:rgba(255,255,255,0.7);text-decoration:none;transition:color 0.25s}
+.nav-links a:hover,.nav-links a.active{color:var(--gold)}
+.nav-cta{background:rgba(196,144,60,0.15)!important;border:1px solid rgba(196,144,60,0.4);
+  padding:9px 20px!important;border-radius:2px;color:var(--gold)!important}
+.nav-cta:hover{background:var(--gold)!important;color:var(--navy)!important}
+.nav-dropdown{position:relative}
+.dropdown-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  background:rgba(9,22,42,0.98);border:1px solid rgba(196,144,60,0.18);border-top:2px solid var(--gold);
+  min-width:220px;padding:8px 0;opacity:0;pointer-events:none;transition:opacity 0.28s;border-radius:0 0 4px 4px}
+.nav-dropdown:hover .dropdown-menu{opacity:1;pointer-events:auto}
+.dropdown-menu a{display:block;padding:11px 20px;font-size:0.73rem;color:rgba(255,255,255,0.78)!important;
+  letter-spacing:0.06em;text-transform:uppercase;background:none!important;border:none!important}
+.dropdown-menu a:hover{color:var(--gold)!important;background:rgba(196,144,60,0.08)!important}
+.chevron{display:inline-block;width:6px;height:6px;border-right:1.5px solid currentColor;
+  border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);margin-left:4px;opacity:0.7}
+.menu-btn{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+.menu-btn span{display:block;width:24px;height:1.5px;background:var(--white);transition:var(--t)}
+@media(max-width:900px){
+  .nav-links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;
+    background:rgba(9,22,42,0.99);padding:24px;gap:0;border-top:1px solid rgba(196,144,60,0.15)}
+  .nav-links.open{display:flex}
+  .nav-links li{border-bottom:1px solid rgba(255,255,255,0.06);width:100%}
+  .nav-links a{display:block;padding:14px 0}
+  .dropdown-menu{position:static;transform:none;background:rgba(255,255,255,0.04);
+    border:none;opacity:1;pointer-events:auto;padding:0;min-width:auto}
+  .menu-btn{display:flex}}
+.art-hero{background:var(--navy);padding:clamp(108px,14vw,148px) clamp(24px,6vw,80px) clamp(60px,8vw,80px);
+  text-align:center;position:relative;overflow:hidden}
+.art-hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(196,144,60,0.09) 0%,transparent 65%)}
+.art-hero-inner{position:relative;max-width:820px;margin:0 auto}
+.art-cat{display:inline-block;font-size:0.62rem;font-weight:700;letter-spacing:0.22em;
+  text-transform:uppercase;color:var(--gold);border:1px solid rgba(196,144,60,0.38);
+  padding:5px 16px;border-radius:2px;margin-bottom:22px}
+.art-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,5vw,3.4rem);
+  font-weight:400;color:var(--white);line-height:1.12;margin-bottom:28px}
+.art-byline{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;
+  font-size:0.79rem;color:rgba(255,255,255,0.42)}
+.art-byline strong{color:rgba(255,255,255,0.7);font-weight:500}
+.art-byline .sep{color:rgba(196,144,60,0.4)}
+.art-main{background:var(--white)}
+.art-container{max-width:740px;margin:0 auto;padding:clamp(48px,8vw,80px) clamp(20px,4vw,40px) clamp(60px,10vw,96px)}
+.art-back{display:inline-flex;align-items:center;gap:8px;font-size:0.73rem;font-weight:600;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);text-decoration:none;
+  margin-bottom:40px;transition:gap 0.25s}
+.art-back:hover{gap:12px}
+.art-lead{font-family:'Cormorant Garamond',serif;font-size:clamp(1.18rem,2.2vw,1.42rem);
+  font-weight:400;line-height:1.68;color:var(--navy);margin-bottom:48px;
+  padding-bottom:40px;border-bottom:1px solid rgba(196,144,60,0.2)}
+.art-container h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,2.8vw,1.95rem);
+  font-weight:600;color:var(--navy);margin:56px 0 16px;line-height:1.2}
+.art-container h3{font-size:1rem;font-weight:700;color:var(--navy);margin:32px 0 10px}
+.art-container p{font-size:1.01rem;line-height:1.87;color:var(--text-mid);margin-bottom:18px}
+.art-container ul,.art-container ol{padding-left:22px;margin-bottom:18px}
+.art-container li{font-size:1rem;line-height:1.78;color:var(--text-mid);margin-bottom:8px}
+.art-container strong{color:var(--text);font-weight:600}
+.callout{padding:20px 26px;margin:32px 0;border-left:3px solid var(--gold);
+  background:rgba(196,144,60,0.06);border-radius:0 4px 4px 0}
+.callout.red{border-color:var(--crimson);background:rgba(139,26,42,0.05)}
+.callout.navy{border-color:var(--navy);background:rgba(9,22,42,0.04)}
+.callout-label{display:block;font-size:0.62rem;font-weight:700;letter-spacing:0.18em;
+  text-transform:uppercase;color:var(--gold-muted);margin-bottom:10px}
+.callout.red .callout-label{color:var(--crimson)}
+.callout.navy .callout-label{color:rgba(9,22,42,0.5)}
+.callout p{font-size:0.97rem;line-height:1.77;color:var(--text-mid);margin:0}
+.callout ul{margin:8px 0 0;padding-left:18px}
+.callout li{font-size:0.95rem;margin-bottom:6px}
+.hba1c-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:0.9rem}
+.hba1c-table th{background:var(--navy);color:var(--white);padding:10px 16px;text-align:left;
+  font-size:0.72rem;letter-spacing:0.1em;text-transform:uppercase;font-weight:600}
+.hba1c-table td{padding:10px 16px;border-bottom:1px solid rgba(0,0,0,0.07);color:var(--text-mid)}
+.hba1c-table tr:nth-child(even) td{background:var(--bg)}
+.hba1c-table td:first-child{font-weight:600;color:var(--navy)}
+.art-author-strip{background:var(--bg);border-top:1px solid rgba(196,144,60,0.14);
+  padding:36px clamp(20px,4vw,40px);max-width:740px;margin:0 auto;display:flex;align-items:center;gap:20px}
+.art-ava{width:54px;height:54px;border-radius:50%;background:var(--navy);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--gold);font-weight:600}
+.art-ava-name{font-size:0.9rem;font-weight:600;color:var(--navy)}
+.art-ava-title{font-size:0.78rem;color:var(--text-mid);margin-top:3px}
+.art-cta{background:var(--navy);text-align:center;padding:clamp(44px,6vw,64px) 24px}
+.art-cta h3{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2rem);
+  color:var(--white);font-weight:400;margin-bottom:12px}
+.art-cta p{font-size:0.88rem;color:rgba(255,255,255,0.5);margin-bottom:28px}
+.btn-gold{display:inline-block;background:var(--gold);color:var(--navy);font-size:0.72rem;
+  font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:14px 36px;
+  border-radius:2px;text-decoration:none;transition:var(--t)}
+.btn-gold:hover{background:var(--gold-light)}
+footer{background:#060F1D;padding:clamp(40px,6vw,64px) clamp(24px,5vw,72px) 32px}
+.f-row{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.f-brand{font-family:'Cormorant Garamond',serif;font-size:1.08rem;color:var(--white);margin-bottom:10px}
+.f-tagline{font-size:0.77rem;color:rgba(255,255,255,0.32);line-height:1.65}
+.f-col-title{font-size:0.62rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--gold-muted);margin-bottom:16px}
+footer ul{list-style:none}
+footer li{margin-bottom:9px}
+footer a{font-size:0.79rem;color:rgba(255,255,255,0.42);text-decoration:none;transition:color 0.25s}
+footer a:hover{color:var(--gold)}
+.f-bottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.06);
+  font-size:0.71rem;color:rgba(255,255,255,0.2);text-align:center}
+@media(max-width:768px){.f-row{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:480px){.f-row{grid-template-columns:1fr}
+  .art-author-strip{flex-direction:column;text-align:center}}
+
+/* Cookie Banner */
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#09162A;border-top:2px solid #C4903C;padding:18px 24px;display:none}
+.cookie-banner.visible{display:block}
+.cookie-banner-inner{max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.cookie-banner-inner p{font-size:0.82rem;color:rgba(255,255,255,0.78);flex:1;min-width:260px;line-height:1.55}
+.cookie-banner-inner p a{color:#E2B96A;text-decoration:underline}
+.cookie-actions{display:flex;gap:12px;flex-shrink:0}
+.cookie-btn{padding:10px 22px;font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;border-radius:2px;cursor:pointer;border:none;transition:all 0.38s}
+.cookie-btn--outline{background:transparent;border:1px solid rgba(196,144,60,0.5);color:rgba(255,255,255,0.7)}
+.cookie-btn--outline:hover{border-color:#C4903C;color:#C4903C}
+.cookie-btn--primary{background:linear-gradient(135deg,#C4903C,#9C7228);color:#fff}
+.cookie-btn--primary:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(196,144,60,0.4)}
+.art-disclaimer{background:#FFF8E7;border-left:3px solid #C4903C;padding:18px 22px;margin-bottom:28px;border-radius:2px;font-size:0.88rem;color:#1A1A2E;line-height:1.65}
+.art-edu-footer{background:rgba(255,255,255,0.06);border:1px solid rgba(196,144,60,0.2);border-radius:2px;padding:18px 22px;margin:32px 24px;font-size:0.85rem;color:rgba(255,255,255,0.65);line-height:1.65}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Understanding HbA1c: What Your Glycated Haemoglobin Result Means","author":{"@type":"Physician","name":"Dr Syed Kashif Hussain Kazmi"},"publisher":{"@type":"MedicalClinic","name":"Naas Cardiology & Endocrinology Clinic"},"datePublished":"2025-06-01","description":"A clinical guide to HbA1c testing, interpretation, and diabetes management targets."}
+</script>
+</head>
+<body>
+<nav id="nav">
+  <a href="index.html" class="nav-brand">
+    <span class="nav-brand-name">Naas Cardiology &amp; Endocrinology</span>
+    <span class="nav-brand-sub">Private Specialist Clinic · Naas, Co. Kildare</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html#about">About</a></li>
+    <li class="nav-dropdown">
+      <a href="index.html#doctors">Our Doctors <span class="chevron"></span></a>
+      <div class="dropdown-menu">
+        <a href="endocrinology.html">Endocrinology &amp; Diabetes</a>
+        <a href="cardiology.html">Cardiology</a>
+      </div>
+    </li>
+    <li><a href="referrers.html">For Referrers</a></li>
+    <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="index.html#appointment" class="nav-cta">Book Appointment</a></li>
+  </ul>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="art-hero">
+  <div class="art-hero-inner">
+    <span class="art-cat">Diabetes</span>
+    <h1 class="art-title">Understanding Your HbA1c: What the Number Really Means</h1>
+    <div class="art-byline">
+      <strong>Dr Syed Kashif Hussain Kazmi</strong>
+      <span class="sep">·</span><span>Consultant Endocrinologist</span>
+      <span class="sep">·</span><span>May 2025</span>
+      <span class="sep">·</span><span>11 min read</span>
+    </div>
+  </div>
+</header>
+
+<main class="art-main">
+  <div class="art-container">
+    <a href="blog.html" class="art-back">← Back to Blog</a>
+
+    <p class="art-lead">HbA1c is arguably the most important number in diabetes management — yet it is widely misunderstood by patients and sometimes misinterpreted in clinical practice. This article explains what HbA1c actually measures, what your target should be, when the test is unreliable, and why a single number is no longer the whole story in modern diabetes care.</p>
+
+    <h2>What Is HbA1c?</h2>
+    <p>HbA1c — haemoglobin A1c, or glycated haemoglobin — reflects the proportion of haemoglobin molecules in your red blood cells that have become irreversibly bound to glucose molecules through a process called glycation. Because red blood cells survive for approximately 90–120 days, HbA1c provides a weighted average of blood glucose over that period, with the most recent 6–8 weeks contributing most heavily to the result.</p>
+
+    <p>In the United Kingdom and Ireland, HbA1c is reported in <strong>mmol/mol</strong> (the IFCC unit), which replaced the older percentage (DCCT/NGSP) notation. Many patients and some clinical letters still use both — the table below provides a conversion reference for the most clinically relevant values:</p>
+
+    <table class="hba1c-table">
+      <thead><tr><th>mmol/mol (IFCC)</th><th>% (DCCT)</th><th>Clinical significance</th></tr></thead>
+      <tbody>
+        <tr><td>42 mmol/mol</td><td>6.0%</td><td>Upper limit of normal</td></tr>
+        <tr><td>47 mmol/mol</td><td>6.4%</td><td>Top of prediabetes range</td></tr>
+        <tr><td>48 mmol/mol</td><td>6.5%</td><td>Diabetes diagnosis threshold</td></tr>
+        <tr><td>53 mmol/mol</td><td>7.0%</td><td>Common treatment target (T2DM on hypoglycaemia-risk agents)</td></tr>
+        <tr><td>58 mmol/mol</td><td>7.5%</td><td>Acceptable in elderly or high hypoglycaemia risk</td></tr>
+        <tr><td>69 mmol/mol</td><td>8.5%</td><td>Suboptimal — increased complications risk</td></tr>
+        <tr><td>86 mmol/mol</td><td>10.0%</td><td>Poor control — urgent review needed</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Diagnostic Thresholds</h2>
+    <p>Per NICE NG28 (updated 2022) and ADA 2024 Standards of Care:</p>
+    <ul>
+      <li><strong>≥48 mmol/mol (6.5%)</strong> on two occasions in an asymptomatic person, or once in a person with classic symptoms of hyperglycaemia (polyuria, polydipsia, unexplained weight loss) → diabetes diagnosis confirmed</li>
+      <li><strong>42–47 mmol/mol (6.0–6.4%)</strong> → non-diabetic hyperglycaemia (prediabetes / impaired glucose regulation). This is not a "borderline" finding to be reassured about — around 5–10% of people in this range develop type 2 diabetes per year. Structured lifestyle intervention can reduce this risk by up to 58%.</li>
+      <li><strong>&lt;42 mmol/mol</strong> → normal</li>
+    </ul>
+
+    <div class="callout">
+      <span class="callout-label">Important</span>
+      <p>A single HbA1c in the diabetes diagnostic range should be confirmed with a repeat test, unless the person has unequivocal hyperglycaemic symptoms. Laboratory error and haematological conditions can cause false positives — see below.</p>
+    </div>
+
+    <h2>Treatment Targets — Why "One Size" Does Not Fit All</h2>
+    <p>The single most important advance in diabetes management over the past decade has been the move towards <strong>individualised HbA1c targets</strong>. The evidence clearly shows that the risks of intensive glucose control (primarily hypoglycaemia and its consequences) can outweigh the benefits in certain populations.</p>
+
+    <p>NICE guidance currently recommends:</p>
+    <ul>
+      <li><strong>48 mmol/mol (6.5%):</strong> the initial target for most people with newly diagnosed type 2 diabetes managed with lifestyle modification and metformin alone, if achievable without hypoglycaemia or significant treatment burden</li>
+      <li><strong>53 mmol/mol (7.0%):</strong> when the person is taking a medication associated with hypoglycaemia (sulphonylurea, insulin), has established CVD, cognitive impairment, or is older with comorbidities where tight control poses risk</li>
+      <li><strong>58–64 mmol/mol (7.5–8.0%):</strong> appropriate in frail older patients, those in care settings, patients with limited life expectancy, or where the burden of treatment outweighs likely benefit</li>
+      <li><strong>Type 1 diabetes:</strong> ≤48 mmol/mol (6.5%) per NICE NG17, with continuous glucose monitoring (CGM) increasingly the primary tool for self-management and monitoring</li>
+    </ul>
+
+    <p>The ADA 2024 and EASD 2023 joint consensus emphasises that glycaemic targets must be co-developed with the patient, taking into account their values, preferences, burden of treatment, hypoglycaemia risk, life expectancy, and likelihood of benefit over a realistic time horizon. A healthy 45-year-old with newly diagnosed T2DM should aim for ≤48 mmol/mol; a 78-year-old with heart failure, cognitive decline, and recurrent falls may be safely and appropriately managed at 64 mmol/mol.</p>
+
+    <h2>When HbA1c Is Unreliable — A Critical Limitation</h2>
+    <p>HbA1c depends on two assumptions: that red blood cells have a normal lifespan (~120 days) and that haemoglobin structure is normal. When either is altered, HbA1c does not accurately reflect average glucose. This is clinically critical and frequently overlooked.</p>
+
+    <h3>Conditions Causing Falsely LOW HbA1c (glucose appears better than it is)</h3>
+    <ul>
+      <li><strong>Haemolytic anaemia</strong> (autoimmune, sickle cell crisis, microangiopathic) — red cells destroyed faster, less time for glycation</li>
+      <li><strong>Haemoglobinopathies</strong> — HbSS (sickle cell), HbC, HbE, HbD — interfere with HPLC assay methodology used by most laboratories</li>
+      <li><strong>Recent blood transfusion</strong> — donor red cells, not glycated by the patient's glucose, dilute the result</li>
+      <li><strong>Iron deficiency treatment</strong> — rapid production of young reticulocytes with shorter glycation exposure</li>
+      <li><strong>Chronic liver disease</strong> — reduced red cell survival</li>
+    </ul>
+
+    <h3>Conditions Causing Falsely HIGH HbA1c (glucose appears worse than it is)</h3>
+    <ul>
+      <li><strong>Iron deficiency anaemia</strong> — iron-deficient red cells survive longer, accumulating more glycation</li>
+      <li><strong>Vitamin B12 or folate deficiency</strong></li>
+      <li><strong>Uraemia / advanced CKD</strong> — carbamylated haemoglobin cross-reacts with some assays</li>
+      <li><strong>Asplenia or hyposplenia</strong> — prolonged red cell survival</li>
+    </ul>
+
+    <div class="callout red">
+      <span class="callout-label">Clinical Alert</span>
+      <p>Patients of African, Mediterranean, or South Asian heritage have higher prevalence of haemoglobinopathy variants that can cause false HbA1c readings. Always check haemoglobin variant status if HbA1c result is inconsistent with self-monitoring or clinical picture. In these patients, request fructosamine or alternative glucose monitoring.</p>
+    </div>
+
+    <h3>Alternative Tests When HbA1c Is Unreliable</h3>
+    <ul>
+      <li><strong>Fructosamine</strong> — reflects glucose control over the preceding 2–3 weeks. Useful when rapid changes are occurring or HbA1c is unreliable. Less standardised internationally.</li>
+      <li><strong>Continuous glucose monitoring (CGM)</strong> — the gold standard for real-time glucose data. Provides time-in-range (TIR), time below range (TBR), glucose variability — far richer information than HbA1c alone.</li>
+    </ul>
+
+    <h2>Beyond HbA1c — The Time-in-Range Revolution</h2>
+    <p>HbA1c has a fundamental and underappreciated limitation: it is an average. Two patients with identical HbA1c of 58 mmol/mol may have profoundly different glucose profiles — one with stable, modestly elevated glucose; the other swinging between dangerous hypoglycaemia and postprandial hyperglycaemia. The average is the same; the clinical situation is entirely different.</p>
+
+    <p>Continuous glucose monitoring has transformed diabetes management. The 2023 international consensus targets for people with type 2 diabetes are:</p>
+    <ul>
+      <li><strong>Time-in-Range (TIR):</strong> &gt;70% of readings between 3.9–10.0 mmol/L</li>
+      <li><strong>Time Below Range (TBR):</strong> &lt;4% of time below 3.9 mmol/L; &lt;1% below 3.0 mmol/L</li>
+      <li><strong>Time Above Range (TAR):</strong> &lt;25% above 10.0 mmol/L; &lt;5% above 13.9 mmol/L</li>
+      <li><strong>Glucose Management Indicator (GMI):</strong> estimated HbA1c derived from CGM mean glucose — useful cross-reference but not a substitute for laboratory HbA1c in diagnosis</li>
+    </ul>
+
+    <p>For older or high-risk patients where hypoglycaemia is the primary concern, TBR targets are the most critical metric. A clinician who focuses only on HbA1c and misses recurring hypoglycaemia at 02:00 is missing the most dangerous part of that patient's glucose profile.</p>
+
+    <div class="callout navy">
+      <span class="callout-label">Key Point</span>
+      <p>A falling HbA1c does not always mean improving outcomes. If HbA1c is falling because of frequent hypoglycaemia — common on sulphonylureas and insulin — this is a patient safety problem, not a therapeutic success. The direction of change matters; so does the mechanism driving it.</p>
+    </div>
+
+    <h2>HbA1c in Prediabetes — The Missed Opportunity</h2>
+    <p>The prediabetes range (42–47 mmol/mol) represents the highest-yield opportunity in diabetes prevention. The landmark Diabetes Prevention Programme (DPP) and Finnish Diabetes Prevention Study demonstrated that structured lifestyle intervention — achieving 5–7% weight loss and 150 minutes of moderate physical activity per week — reduces progression from prediabetes to type 2 diabetes by 58%. Metformin reduces progression by 31%.</p>
+
+    <p>Patients with HbA1c in the prediabetes range should not simply be "rechecked in a year." They should receive:</p>
+    <ul>
+      <li>Clear explanation of the clinical significance and trajectory</li>
+      <li>Structured lifestyle advice or formal referral to a prevention programme</li>
+      <li>Assessment and management of other cardiometabolic risk factors</li>
+      <li>Annual monitoring at minimum</li>
+      <li>Consideration of metformin if lifestyle modification is insufficient</li>
+    </ul>
+
+    <h2>When to Seek Specialist Review</h2>
+    <ul>
+      <li>HbA1c persistently &gt;75 mmol/mol (9.0%) despite optimised oral therapy</li>
+      <li>Any HbA1c &gt;86 mmol/mol (10.0%)</li>
+      <li>Recurrent or severe hypoglycaemia at any HbA1c level</li>
+      <li>Suspected haemoglobin variant or haematological condition causing unreliable HbA1c</li>
+      <li>Newly diagnosed diabetes in a person under 30 — consider type 1, LADA (latent autoimmune diabetes in adults), or MODY (maturity-onset diabetes of the young)</li>
+      <li>Diabetes complicating pregnancy or preconception planning — HbA1c targets in pregnancy are tighter (&lt;48 mmol/mol ideally &lt;43 mmol/mol), and management is complex</li>
+      <li>Rapid deterioration in glycaemic control suggesting a secondary cause (new steroid prescription, intercurrent illness, endocrine condition such as Cushing's syndrome or acromegaly)</li>
+      <li>Significant weight gain despite good lifestyle adherence — consider insulin resistance, medication side effects, or endocrine cause</li>
+    </ul>
+
+    <div class="callout">
+      <span class="callout-label">In Summary</span>
+      <p>HbA1c is an essential tool, but it is one data point in a more complex clinical picture. The right target for you depends on your age, comorbidities, medications, risk of hypoglycaemia, and lifestyle. Interpreted in isolation and without context, it can mislead. Interpreted thoughtfully, alongside glucose monitoring, medication review, and patient circumstances, it remains one of the most valuable metrics in chronic disease management.</p>
+    </div>
+  </div>
+
+  <div class="art-author-strip">
+    <div class="art-ava">DK</div>
+    <div>
+      <div class="art-ava-name">Dr Syed Kashif Hussain Kazmi</div>
+      <div class="art-ava-title">Consultant Endocrinologist · MRCPI · FRCP Glasgow · CCT UK<br>Naas Cardiology &amp; Endocrinology Clinic</div>
+    </div>
+  </div>
+  <div class="art-edu-footer">
+    <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before making any health decisions. This website does not provide remote diagnosis, prescription, or telemedicine services.</p>
+  </div>
+  <div class="art-cta">
+    <h3>Concerned About Your Diabetes Control?</h3>
+    <p>Our clinic offers comprehensive diabetes assessment, individualised target-setting, and medication review with direct consultant access.</p>
+    <a href="index.html#appointment" class="btn-gold">Book a Consultation</a>
+  </div>
+</main>
+
+<footer>
+  <div class="f-row">
+    <div><div class="f-brand">Naas Cardiology &amp; Endocrinology</div>
+    <p class="f-tagline">Private specialist care for cardiology, endocrinology,<br>diabetes and obesity medicine. Naas, Co. Kildare.</p></div>
+    <div><div class="f-col-title">Clinic</div><ul>
+      <li><a href="index.html#about">About</a></li><li><a href="index.html#doctors">Our Doctors</a></li>
+      <li><a href="referrers.html">For Referrers</a></li><li><a href="blog.html">Clinical Blog</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+      <li><a href="policies.html">Clinic Policies</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li></ul></div>
+    <div><div class="f-col-title">Specialties</div><ul>
+      <li><a href="endocrinology.html">Endocrinology</a></li><li><a href="endocrinology.html">Diabetes</a></li>
+      <li><a href="endocrinology.html">Obesity Medicine</a></li><li><a href="cardiology.html">Cardiology</a></li></ul></div>
+    <div><div class="f-col-title">Contact</div><ul>
+      <li><a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a></li>
+      <li><a href="tel:0896567597">089 656 7597</a></li>
+      <li><a href="index.html#appointment">Book Appointment</a></li></ul></div>
+  </div>
+  <div class="f-bottom">
+    <p>© 2025 Naas Cardiology &amp; Endocrinology Clinic · All rights reserved</p>
+    <p style="font-size:0.68rem;color:rgba(255,255,255,0.18);margin-top:10px;line-height:1.55;">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional. In a medical emergency, call 999 or 112. &nbsp;·&nbsp; We aim to meet WCAG 2.1 Level AA accessibility standards. &nbsp;·&nbsp; Consultation hours: Sundays 9am–5pm.</p>
+    <p style="font-size:0.67rem;color:rgba(196,144,60,0.35);margin-top:6px;">Dr Kazmi IMC: 213626 &nbsp;·&nbsp; Dr Kalyar IMC: 102093 &nbsp;·&nbsp; This practice is covered by medical indemnity insurance.</p>
+  </div>
+</footer>
+<!-- Cookie Banner -->
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+  <div class="cookie-banner-inner">
+    <p>We use cookies to analyse site traffic (Google Analytics). Essential cookies keep the site working. <a href="privacy.html">Privacy Policy</a></p>
+    <div class="cookie-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn--outline">Essential Only</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--primary">Accept All</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){var SIX_MONTHS=6*30*24*60*60*1000;var consent=localStorage.getItem('cookieConsent');var consentTime=parseInt(localStorage.getItem('cookieConsentTime')||'0',10);var expired=(Date.now()-consentTime)>SIX_MONTHS;if(!consent||expired){document.getElementById('cookieBanner').classList.add('visible');}function loadGA(){/* GA4 placeholder — insert measurement ID when available */}if(consent==='all'&&!expired){loadGA();}document.getElementById('cookieAccept').addEventListener('click',function(){localStorage.setItem('cookieConsent','all');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');loadGA();});document.getElementById('cookieReject').addEventListener('click',function(){localStorage.setItem('cookieConsent','essential');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');});})();
+</script>
+<script>
+const nav=document.getElementById('nav'),btn=document.getElementById('menuBtn'),links=document.getElementById('navLinks');
+window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40));
+btn.addEventListener('click',()=>{const o=links.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+document.addEventListener('click',(e)=>{if(!links.contains(e.target)&&!btn.contains(e.target)&&links.classList.contains('open')){links.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+</script>
+</body>
+</html>

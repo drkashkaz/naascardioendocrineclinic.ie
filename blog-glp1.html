@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>GLP-1 Receptor Agonists: Safe Prescribing & The Risks of Unregulated Use | Naas Clinic</title>
+<meta name="description" content="A consultant endocrinologist's evidence-based guide to GLP-1 receptor agonists — semaglutide, tirzepatide, safe prescribing, clinical trial evidence, and the serious risks of unregulated online acquisition.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GLP-1 Receptor Agonists: Safe Prescribing &amp; The Risks of Unregulated Use | Naas Clinic">
+<meta property="og:description" content="A consultant endocrinologist's evidence-based guide to GLP-1 receptor agonists — semaglutide, tirzepatide, safe prescribing, clinical trial evidence, and the serious risks of unregulated online acquisition.">
+<meta property="og:image" content="dr-kazmi.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GLP-1 Receptor Agonists: Safe Prescribing &amp; The Risks of Unregulated Use | Naas Clinic">
+<meta name="twitter:description" content="A consultant endocrinologist's evidence-based guide to GLP-1 receptor agonists — semaglutide, tirzepatide, safe prescribing, clinical trial evidence, and the serious risks of unregulated online acquisition.">
+<meta property="og:url" content="https://www.naasclinic.ie/blog-glp1.html">
+<link rel="canonical" href="https://www.naasclinic.ie/blog-glp1.html">
+<meta name="twitter:image" content="dr-kazmi.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+:root{
+  --navy:#09162A;--gold:#C4903C;--gold-light:#E2B96A;--gold-muted:#9C7228;
+  --crimson:#8B1A2A;--crimson-light:#C44055;
+  --white:#FFFFFF;--text:#1C2A38;--text-mid:#516070;--text-light:#8A96A3;
+  --bg:#F8F7F5;--ease:cubic-bezier(0.25,0.46,0.45,0.94);--t:all 0.38s var(--ease);
+}
+body{font-family:'Jost',sans-serif;color:var(--text);background:var(--white);line-height:1.65}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;
+  justify-content:space-between;padding:0 clamp(20px,5vw,72px);height:72px;
+  background:rgba(9,22,42,0.97);backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(196,144,60,0.13);transition:var(--t)}
+nav.scrolled{background:rgba(9,22,42,1);border-bottom-color:rgba(196,144,60,0.25)}
+.nav-brand{display:flex;flex-direction:column;gap:2px;text-decoration:none}
+.nav-brand-name{font-family:'Cormorant Garamond',serif;font-size:1.12rem;font-weight:500;color:var(--white)}
+.nav-brand-sub{font-size:0.61rem;letter-spacing:0.16em;text-transform:uppercase;color:rgba(196,144,60,0.7)}
+.nav-links{list-style:none;display:flex;align-items:center;gap:32px}
+.nav-links a{font-size:0.77rem;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;
+  color:rgba(255,255,255,0.7);text-decoration:none;transition:color 0.25s}
+.nav-links a:hover,.nav-links a.active{color:var(--gold)}
+.nav-cta{background:rgba(196,144,60,0.15)!important;border:1px solid rgba(196,144,60,0.4);
+  padding:9px 20px!important;border-radius:2px;color:var(--gold)!important}
+.nav-cta:hover{background:var(--gold)!important;color:var(--navy)!important}
+.nav-dropdown{position:relative}
+.dropdown-menu{position:absolute;top:100%;left:50%;transform:translateX(-50%);
+  background:rgba(9,22,42,0.98);border:1px solid rgba(196,144,60,0.18);border-top:2px solid var(--gold);
+  min-width:220px;padding:8px 0;opacity:0;pointer-events:none;transition:opacity 0.28s;border-radius:0 0 4px 4px}
+.nav-dropdown:hover .dropdown-menu{opacity:1;pointer-events:auto}
+.dropdown-menu a{display:block;padding:11px 20px;font-size:0.73rem;color:rgba(255,255,255,0.78)!important;
+  letter-spacing:0.06em;text-transform:uppercase;background:none!important;border:none!important}
+.dropdown-menu a:hover{color:var(--gold)!important;background:rgba(196,144,60,0.08)!important}
+.chevron{display:inline-block;width:6px;height:6px;border-right:1.5px solid currentColor;
+  border-bottom:1.5px solid currentColor;transform:rotate(45deg) translateY(-2px);margin-left:4px;opacity:0.7}
+.menu-btn{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+.menu-btn span{display:block;width:24px;height:1.5px;background:var(--white);transition:var(--t)}
+@media(max-width:900px){
+  .nav-links{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;
+    background:rgba(9,22,42,0.99);padding:24px;gap:0;border-top:1px solid rgba(196,144,60,0.15)}
+  .nav-links.open{display:flex}
+  .nav-links li{border-bottom:1px solid rgba(255,255,255,0.06);width:100%}
+  .nav-links a{display:block;padding:14px 0;font-size:0.82rem}
+  .dropdown-menu{position:static;transform:none;background:rgba(255,255,255,0.04);
+    border:none;opacity:1;pointer-events:auto;padding:0;min-width:auto}
+  .menu-btn{display:flex}
+}
+
+/* ARTICLE HERO */
+.art-hero{background:var(--navy);padding:clamp(108px,14vw,148px) clamp(24px,6vw,80px) clamp(60px,8vw,80px);
+  text-align:center;position:relative;overflow:hidden}
+.art-hero::before{content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse at 50% 0%,rgba(196,144,60,0.09) 0%,transparent 65%)}
+.art-hero-inner{position:relative;max-width:820px;margin:0 auto}
+.art-cat{display:inline-block;font-size:0.62rem;font-weight:700;letter-spacing:0.22em;
+  text-transform:uppercase;color:var(--gold);border:1px solid rgba(196,144,60,0.38);
+  padding:5px 16px;border-radius:2px;margin-bottom:22px}
+.art-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,5vw,3.4rem);
+  font-weight:400;color:var(--white);line-height:1.12;margin-bottom:28px}
+.art-byline{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;
+  font-size:0.79rem;color:rgba(255,255,255,0.42);letter-spacing:0.04em}
+.art-byline strong{color:rgba(255,255,255,0.7);font-weight:500}
+.art-byline .sep{color:rgba(196,144,60,0.4)}
+
+/* ARTICLE BODY */
+.art-main{background:var(--white)}
+.art-container{max-width:740px;margin:0 auto;
+  padding:clamp(48px,8vw,80px) clamp(20px,4vw,40px) clamp(60px,10vw,96px)}
+.art-back{display:inline-flex;align-items:center;gap:8px;font-size:0.73rem;font-weight:600;
+  letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);text-decoration:none;
+  margin-bottom:40px;transition:gap 0.25s}
+.art-back:hover{gap:12px}
+.art-lead{font-family:'Cormorant Garamond',serif;font-size:clamp(1.18rem,2.2vw,1.42rem);
+  font-weight:400;line-height:1.68;color:var(--navy);margin-bottom:48px;
+  padding-bottom:40px;border-bottom:1px solid rgba(196,144,60,0.2)}
+.art-container h2{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,2.8vw,1.95rem);
+  font-weight:600;color:var(--navy);margin:56px 0 16px;line-height:1.2}
+.art-container h3{font-size:1rem;font-weight:700;color:var(--navy);margin:32px 0 10px;letter-spacing:0.01em}
+.art-container p{font-size:1.01rem;line-height:1.87;color:var(--text-mid);margin-bottom:18px}
+.art-container ul,.art-container ol{padding-left:22px;margin-bottom:18px}
+.art-container li{font-size:1rem;line-height:1.78;color:var(--text-mid);margin-bottom:8px}
+.art-container strong{color:var(--text);font-weight:600}
+.callout{padding:20px 26px;margin:32px 0;border-left:3px solid var(--gold);
+  background:rgba(196,144,60,0.06);border-radius:0 4px 4px 0}
+.callout.red{border-color:var(--crimson);background:rgba(139,26,42,0.05)}
+.callout.navy{border-color:var(--navy);background:rgba(9,22,42,0.04)}
+.callout-label{display:block;font-size:0.62rem;font-weight:700;letter-spacing:0.18em;
+  text-transform:uppercase;color:var(--gold-muted);margin-bottom:10px}
+.callout.red .callout-label{color:var(--crimson)}
+.callout.navy .callout-label{color:rgba(9,22,42,0.5)}
+.callout p{font-size:0.97rem;line-height:1.77;color:var(--text-mid);margin:0}
+.callout ul{margin:8px 0 0;padding-left:18px}
+.callout li{font-size:0.95rem;margin-bottom:6px}
+.ev{display:inline-block;font-size:0.62rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;
+  background:rgba(9,22,42,0.07);color:var(--navy);padding:3px 9px;border-radius:2px;
+  margin-right:5px;vertical-align:middle}
+
+/* Author strip */
+.art-author-strip{background:var(--bg);border-top:1px solid rgba(196,144,60,0.14);
+  padding:36px clamp(20px,4vw,40px);max-width:740px;margin:0 auto;
+  display:flex;align-items:center;gap:20px}
+.art-ava{width:54px;height:54px;border-radius:50%;background:var(--navy);flex-shrink:0;
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Cormorant Garamond',serif;font-size:1.05rem;color:var(--gold);font-weight:600}
+.art-ava-name{font-size:0.9rem;font-weight:600;color:var(--navy)}
+.art-ava-title{font-size:0.78rem;color:var(--text-mid);margin-top:3px}
+
+/* CTA strip */
+.art-cta{background:var(--navy);text-align:center;padding:clamp(44px,6vw,64px) 24px}
+.art-cta h3{font-family:'Cormorant Garamond',serif;font-size:clamp(1.5rem,3vw,2rem);
+  color:var(--white);font-weight:400;margin-bottom:12px}
+.art-cta p{font-size:0.88rem;color:rgba(255,255,255,0.5);margin-bottom:28px}
+.btn-gold{display:inline-block;background:var(--gold);color:var(--navy);font-size:0.72rem;
+  font-weight:700;letter-spacing:0.16em;text-transform:uppercase;padding:14px 36px;
+  border-radius:2px;text-decoration:none;transition:var(--t)}
+.btn-gold:hover{background:var(--gold-light)}
+
+/* FOOTER */
+footer{background:#060F1D;padding:clamp(40px,6vw,64px) clamp(24px,5vw,72px) 32px}
+.f-row{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:40px}
+.f-brand{font-family:'Cormorant Garamond',serif;font-size:1.08rem;color:var(--white);margin-bottom:10px}
+.f-tagline{font-size:0.77rem;color:rgba(255,255,255,0.32);line-height:1.65}
+.f-col-title{font-size:0.62rem;font-weight:700;letter-spacing:0.2em;text-transform:uppercase;
+  color:var(--gold-muted);margin-bottom:16px}
+footer ul{list-style:none}
+footer li{margin-bottom:9px}
+footer a{font-size:0.79rem;color:rgba(255,255,255,0.42);text-decoration:none;transition:color 0.25s}
+footer a:hover{color:var(--gold)}
+.f-bottom{margin-top:40px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.06);
+  font-size:0.71rem;color:rgba(255,255,255,0.2);text-align:center}
+@media(max-width:768px){.f-row{grid-template-columns:1fr 1fr;gap:28px}}
+@media(max-width:480px){.f-row{grid-template-columns:1fr;gap:20px}
+  .art-author-strip{flex-direction:column;text-align:center}}
+
+/* Cookie Banner */
+.cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#09162A;border-top:2px solid #C4903C;padding:18px 24px;display:none}
+.cookie-banner.visible{display:block}
+.cookie-banner-inner{max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+.cookie-banner-inner p{font-size:0.82rem;color:rgba(255,255,255,0.78);flex:1;min-width:260px;line-height:1.55}
+.cookie-banner-inner p a{color:#E2B96A;text-decoration:underline}
+.cookie-actions{display:flex;gap:12px;flex-shrink:0}
+.cookie-btn{padding:10px 22px;font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;border-radius:2px;cursor:pointer;border:none;transition:all 0.38s}
+.cookie-btn--outline{background:transparent;border:1px solid rgba(196,144,60,0.5);color:rgba(255,255,255,0.7)}
+.cookie-btn--outline:hover{border-color:#C4903C;color:#C4903C}
+.cookie-btn--primary{background:linear-gradient(135deg,#C4903C,#9C7228);color:#fff}
+.cookie-btn--primary:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(196,144,60,0.4)}
+.art-disclaimer{background:#FFF8E7;border-left:3px solid #C4903C;padding:18px 22px;margin-bottom:28px;border-radius:2px;font-size:0.88rem;color:#1A1A2E;line-height:1.65}
+.art-edu-footer{background:rgba(255,255,255,0.06);border:1px solid rgba(196,144,60,0.2);border-radius:2px;padding:18px 22px;margin:32px 24px;font-size:0.85rem;color:rgba(255,255,255,0.65);line-height:1.65}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"GLP-1 Receptor Agonists: Safe Prescribing & The Risks of Unregulated Use","author":{"@type":"Physician","name":"Dr Syed Kashif Hussain Kazmi"},"publisher":{"@type":"MedicalClinic","name":"Naas Cardiology & Endocrinology Clinic"},"datePublished":"2025-06-01","description":"A consultant endocrinologist's evidence-based guide to GLP-1 receptor agonists, safe prescribing, and risks of unregulated use."}
+</script>
+</head>
+<body>
+
+<nav id="nav">
+  <a href="index.html" class="nav-brand">
+    <span class="nav-brand-name">Naas Cardiology &amp; Endocrinology</span>
+    <span class="nav-brand-sub">Private Specialist Clinic · Naas, Co. Kildare</span>
+  </a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html#about">About</a></li>
+    <li class="nav-dropdown">
+      <a href="index.html#doctors">Our Doctors <span class="chevron"></span></a>
+      <div class="dropdown-menu">
+        <a href="endocrinology.html">Endocrinology &amp; Diabetes</a>
+        <a href="cardiology.html">Cardiology</a>
+      </div>
+    </li>
+    <li><a href="referrers.html">For Referrers</a></li>
+    <li><a href="blog.html" class="active">Blog</a></li>
+    <li><a href="index.html#contact">Contact</a></li>
+    <li><a href="index.html#appointment" class="nav-cta">Book Appointment</a></li>
+  </ul>
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+</nav>
+
+<header class="art-hero">
+  <div class="art-hero-inner">
+    <span class="art-cat">Obesity Medicine</span>
+    <h1 class="art-title">GLP-1 Receptor Agonists: Safe Prescribing &amp; The Risks of Unregulated Use</h1>
+    <div class="art-byline">
+      <strong>Dr Syed Kashif Hussain Kazmi</strong>
+      <span class="sep">·</span>
+      <span>Consultant Endocrinologist</span>
+      <span class="sep">·</span>
+      <span>June 2025</span>
+      <span class="sep">·</span>
+      <span>14 min read</span>
+    </div>
+  </div>
+</header>
+
+<main class="art-main">
+  <div class="art-container">
+    <a href="blog.html" class="art-back">← Back to Blog</a>
+
+  <div class="art-disclaimer">
+    <strong>Educational Notice:</strong> This article is written by a registered medical professional for informational and educational purposes only. It does not constitute medical advice, promotion, or a recommendation to use any specific medicine. All treatment decisions must be made in consultation with a qualified clinician. Medicine names are referenced for educational accuracy only and do not constitute advertising under HPRA guidelines.
+  </div>
+
+    <p class="art-lead">GLP-1 receptor agonists represent one of the most significant advances in the management of type 2 diabetes and obesity in a generation. With the explosive growth of social media and direct-to-consumer advertising, these medications are now household names — yet the gap between public perception and safe clinical practice has never been wider.</p>
+
+    <h2>What Are GLP-1 Receptor Agonists?</h2>
+    <p>GLP-1 (glucagon-like peptide-1) is an incretin hormone secreted by L-cells in the small intestine in response to food intake. It stimulates insulin secretion in a glucose-dependent manner, suppresses glucagon, slows gastric emptying, and — critically — acts on hypothalamic satiety centres to reduce appetite and food intake. GLP-1 receptor agonists (GLP-1 RAs) mimic this action with a much longer half-life than the native hormone, making them suitable for once-weekly or even once-monthly dosing in newer formulations.</p>
+
+    <p>Currently available agents in Ireland and the United Kingdom include:</p>
+    <ul>
+      <li><strong>Semaglutide</strong> — Ozempic® (0.5–2mg weekly injection, licensed for type 2 diabetes); Wegovy® (2.4mg weekly injection, licensed for obesity); Rybelsus® (oral, 7–14mg daily, licensed for T2DM)</li>
+      <li><strong>Liraglutide</strong> — Victoza® (daily injection, T2DM); Saxenda® (3mg daily injection, obesity)</li>
+      <li><strong>Dulaglutide</strong> — Trulicity® (weekly injection, T2DM)</li>
+      <li><strong>Exenatide</strong> — Byetta® (twice daily); Bydureon® (weekly)</li>
+      <li><strong>Tirzepatide</strong> — Mounjaro® — dual GIP (glucose-dependent insulinotropic polypeptide) and GLP-1 receptor agonist, representing the next generation. Licensed for both T2DM and obesity in Ireland.</li>
+    </ul>
+
+    <h2>The Evidence Base</h2>
+    <h3>Cardiovascular Outcomes</h3>
+    <p>The cardiovascular benefit of GLP-1 RAs is now among the best-documented in cardio-metabolic medicine.</p>
+    <ul>
+      <li><span class="ev">LEADER 2016</span> Liraglutide reduced major adverse cardiovascular events (MACE) by 13% versus placebo in patients with type 2 diabetes and high cardiovascular risk.</li>
+      <li><span class="ev">SUSTAIN-6 2016</span> Semaglutide 0.5–1mg reduced MACE by 26% in T2DM patients with elevated cardiovascular risk — a landmark result.</li>
+      <li><span class="ev">SELECT 2023</span> The most consequential trial in this space. Semaglutide 2.4mg (Wegovy) reduced MACE by 20% in patients with overweight or obesity and established cardiovascular disease — but without type 2 diabetes. This was transformative: GLP-1 RA cardiovascular benefit is independent of glucose lowering and extends to primary weight management indications.</li>
+      <li><span class="ev">SURPASS-CVOT 2024</span> Tirzepatide demonstrated non-inferiority and numeric superiority to dulaglutide on MACE in T2DM; longer-term outcome data are awaited.</li>
+    </ul>
+
+    <h3>Weight Loss</h3>
+    <ul>
+      <li><span class="ev">STEP-1</span> Semaglutide 2.4mg achieved mean 14.9% weight loss at 68 weeks in people with obesity without T2DM.</li>
+      <li><span class="ev">SURMOUNT-1</span> Tirzepatide 15mg achieved mean 20.9% weight loss at 72 weeks in people with obesity — the highest pharmacological weight loss ever demonstrated in a placebo-controlled randomised trial.</li>
+      <li><span class="ev">SURMOUNT-4</span> Weight regain after stopping tirzepatide was significant (+14% of body weight at 88 weeks), reinforcing that these are long-term, not short-term, treatments.</li>
+    </ul>
+
+    <div class="callout navy">
+      <span class="callout-label">Clinical Perspective</span>
+      <p>The SURMOUNT-4 data on weight regain is not a reason to avoid these medications — it is a reason to treat obesity as the chronic, relapsing metabolic disease it is, and to manage it long-term accordingly. Stopping a well-tolerated, effective medication for obesity is no different to stopping an antihypertensive.</p>
+    </div>
+
+    <h2>Who Should Receive These Medications?</h2>
+    <p>Current indications per NICE, EMA, and IPHA guidance:</p>
+    <ul>
+      <li><strong>Type 2 diabetes:</strong> as add-on to metformin and other oral agents, or as first-line in combination with lifestyle modification when cardiovascular disease is present. GLP-1 RAs are preferred over sulphonylureas and DPP-4 inhibitors in patients with established CVD or high CV risk.</li>
+      <li><strong>Obesity:</strong> BMI ≥30 kg/m² with at least one weight-related comorbidity (T2DM, hypertension, dyslipidaemia, obstructive sleep apnoea, non-alcoholic fatty liver disease), or BMI ≥35 kg/m² regardless of comorbidities, as part of a structured specialist weight management programme.</li>
+      <li><strong>Cardiovascular risk reduction:</strong> Post-SELECT, semaglutide 2.4mg is indicated for reducing cardiovascular risk in patients with overweight or obesity and established atherosclerotic CVD, independently of glycaemic status.</li>
+    </ul>
+
+    <h2>Contraindications and Cautions</h2>
+    <ul>
+      <li><strong>Personal or family history of medullary thyroid carcinoma (MTC)</strong> or Multiple Endocrine Neoplasia type 2A or 2B (MEN2A/2B) — class contraindication. The biological basis is rodent data showing thyroid C-cell hyperplasia; human risk remains theoretical but is taken seriously as a regulatory requirement. A thyroid history and examination must precede prescription.</li>
+      <li><strong>Active or recent acute pancreatitis</strong> — do not initiate. History of pancreatitis is a relative contraindication requiring specialist risk assessment. Persistent epigastric pain radiating to the back during treatment must prompt urgent investigation and discontinuation.</li>
+      <li><strong>Severe gastroparesis</strong> — avoid; GLP-1 RAs further delay gastric emptying and may worsen symptoms significantly.</li>
+      <li><strong>Pregnancy and breastfeeding</strong> — contraindicated. Discontinue at least 2 months before planned conception (semaglutide) or 1 month (liraglutide). Women of childbearing potential should use effective contraception.</li>
+      <li><strong>Diabetic retinopathy with insulin therapy</strong> — an early worsening signal was observed in SUSTAIN-6. Subsequent analyses suggest this is related to rapid glucose normalisation rather than a drug-specific effect; however, ophthalmology review before initiation is prudent in patients with known proliferative retinopathy.</li>
+      <li><strong>Severe renal impairment (eGFR &lt;15 ml/min)</strong> — avoid most agents in end-stage renal disease; semaglutide has emerging data in earlier CKD stages. Specialist renal-endocrine co-management is required.</li>
+    </ul>
+
+    <h2>Dose Titration — Why It Matters</h2>
+    <p>Gastrointestinal side effects (nausea, vomiting, diarrhoea, constipation) are the most common treatment-limiting adverse effects and are dose-dependent. Slow, structured dose escalation substantially reduces their incidence and severity.</p>
+
+    <p><strong>Semaglutide (Ozempic®):</strong> 0.25mg weekly for 4 weeks → 0.5mg for 4 weeks → 1mg maintenance → 2mg if needed in T2DM.</p>
+    <p><strong>Semaglutide (Wegovy®):</strong> 0.25mg → 0.5mg → 1mg → 1.7mg → 2.4mg; 4 weeks per step over 16 weeks total.</p>
+    <p><strong>Tirzepatide (Mounjaro®):</strong> 2.5mg → 5mg → 7.5mg → 10mg → 12.5mg → 15mg; 4 weeks per step, up to 20 weeks escalation to maximum dose.</p>
+
+    <div class="callout">
+      <span class="callout-label">Practical Advice for Patients</span>
+      <ul>
+        <li>Take the injection on the same day each week, at any time of day, with or without food</li>
+        <li>Nausea is most common in the first 2–4 weeks after each dose increase — it will pass</li>
+        <li>Eat smaller portions, chew slowly, avoid high-fat and spicy meals during the adjustment period</li>
+        <li>Stay well hydrated — dehydration worsens nausea significantly</li>
+        <li>If nausea is severe, delay dose escalation; do not discontinue. Contact your prescriber.</li>
+        <li>GI symptoms indicate the medication is working — they reflect slowed gastric emptying, which drives satiety</li>
+      </ul>
+    </div>
+
+    <h2>The Muscle Loss Problem — What Media Coverage Ignores</h2>
+    <p>Clinical trial data consistently shows that 25–40% of weight lost on GLP-1 receptor agonists can be lean mass (skeletal muscle), particularly in the absence of structured dietary protein and resistance exercise. This is not a GLP-1-specific problem — it occurs with all methods of caloric restriction at this magnitude — but it is insufficiently communicated in prescribing conversations and completely absent from social media promotion of these medications.</p>
+
+    <p>The consequences of significant lean mass loss include:</p>
+    <ul>
+      <li>Reduced resting metabolic rate, making long-term weight maintenance harder</li>
+      <li>Increased risk of falls and functional decline, particularly in older patients</li>
+      <li>Facial volume loss — the so-called "Ozempic face" — a consequence of subcutaneous fat and muscle loss, not an inevitable drug effect</li>
+      <li>Sarcopenic obesity — a paradoxical and metabolically dangerous state</li>
+    </ul>
+
+    <p>Every patient prescribed a GLP-1 receptor agonist for weight management should receive explicit guidance on:</p>
+    <ul>
+      <li><strong>Protein intake:</strong> ≥1.2g/kg body weight/day; ≥1.5g/kg/day in adults over 65</li>
+      <li><strong>Resistance training:</strong> minimum 2 structured sessions per week targeting major muscle groups</li>
+      <li><strong>Dietitian involvement:</strong> particularly when significant weight loss (>10%) is the goal</li>
+    </ul>
+
+    <h2>The Serious Risks of Unregulated Use</h2>
+    <p>GLP-1 receptor agonists are now available through unregulated online platforms, unqualified prescribers operating outside clinical governance frameworks, and compounding pharmacies. This has created a patient safety emergency.</p>
+
+    <div class="callout red">
+      <span class="callout-label">Patient Safety Warning</span>
+      <ul>
+        <li><strong>Counterfeit products:</strong> The US FDA, MHRA, and EMA issued multiple warnings from 2023 through 2025 regarding counterfeit semaglutide products of unknown concentration, purity, and sterility. Hospitalisations due to severe hypoglycaemia and anaphylaxis have been documented.</li>
+        <li><strong>Compounded semaglutide:</strong> During supply shortages, compounding pharmacies produced semaglutide variants (semaglutide sodium, semaglutide acetate) — chemically distinct from pharmaceutical semaglutide and with no clinical trial data supporting bioequivalence or safety.</li>
+        <li><strong>No baseline screening:</strong> Safe initiation requires HbA1c, renal function, thyroid history, pancreatitis history, BMI, cardiovascular risk assessment, and medication reconciliation. Online questionnaires do not substitute for clinical evaluation.</li>
+        <li><strong>Incorrect dosing:</strong> Without structured titration and medical supervision, severe GI effects, dangerous hypoglycaemia (particularly if the patient is concurrently on insulin or a sulphonylurea), and exacerbation of unidentified contraindications are real risks.</li>
+        <li><strong>No follow-up or monitoring:</strong> Structured follow-up identifies complications, assesses response, adjusts concomitant medications (particularly antihypertensives and diabetes agents as weight falls), and provides lifestyle support.</li>
+      </ul>
+    </div>
+
+    <h2>Adjusting Concomitant Medications</h2>
+    <p>As weight falls and insulin sensitivity improves, patients on antihypertensives, diuretics, and insulin may require progressive dose reductions to avoid hypotension and hypoglycaemia. This is an active, clinical process that requires regular review — not a one-off prescription renewal. In our clinic, patients on GLP-1 RAs receive structured reviews at 4, 12, and 24 weeks, and 3–6 monthly thereafter.</p>
+
+    <h2>When Specialist Review Is Needed</h2>
+    <ul>
+      <li>Inadequate response (less than 5% weight loss) after 16 weeks at maximum tolerated dose</li>
+      <li>Recurrent or severe hypoglycaemia on concomitant insulin or sulphonylurea</li>
+      <li>Persistent abdominal pain — must exclude pancreatitis urgently</li>
+      <li>Known or newly identified thyroid nodule or goitre — requires thyroid evaluation before initiation</li>
+      <li>Weight loss plateau despite adherence — consider combination therapy, secondary obesity causes, or transition to bariatric surgery pathway</li>
+      <li>Complex polypharmacy, CKD, or significant comorbidity requiring specialist co-ordination</li>
+    </ul>
+
+    <div class="callout navy">
+      <span class="callout-label">Summary</span>
+      <p>GLP-1 receptor agonists are powerful, evidence-based medications with genuine cardiometabolic benefits. But their power demands clinical respect — proper patient selection, contraindication screening, structured titration, concomitant medication review, lifestyle support, and ongoing monitoring. They are not a quick fix, and they are not safe in unstructured, unmonitored settings.</p>
+    </div>
+  </div>
+
+  <div class="art-author-strip">
+    <div class="art-ava">DK</div>
+    <div>
+      <div class="art-ava-name">Dr Syed Kashif Hussain Kazmi</div>
+      <div class="art-ava-title">Consultant Endocrinologist · MRCPI · FRCP Glasgow · CCT UK<br>Naas Cardiology &amp; Endocrinology Clinic</div>
+    </div>
+  </div>
+
+  <div class="art-edu-footer">
+    <p><strong>Disclaimer:</strong> This article is for educational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before making any health decisions. This website does not provide remote diagnosis, prescription, or telemedicine services.</p>
+  </div>
+  <div class="art-cta">
+    <h3>Considering GLP-1 Therapy?</h3>
+    <p>Our clinic provides structured specialist assessment, initiation, and monitoring for GLP-1 receptor agonist therapy in the appropriate clinical context.</p>
+    <a href="index.html#appointment" class="btn-gold">Book a Consultation</a>
+  </div>
+</main>
+
+<footer>
+  <div class="f-row">
+    <div>
+      <div class="f-brand">Naas Cardiology &amp; Endocrinology</div>
+      <p class="f-tagline">Private specialist care for cardiology, endocrinology,<br>diabetes and obesity medicine. Naas, Co. Kildare.</p>
+    </div>
+    <div>
+      <div class="f-col-title">Clinic</div>
+      <ul>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#doctors">Our Doctors</a></li>
+        <li><a href="referrers.html">For Referrers</a></li>
+        <li><a href="blog.html">Clinical Blog</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+        <li><a href="policies.html">Clinic Policies</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Specialties</div>
+      <ul>
+        <li><a href="endocrinology.html">Endocrinology</a></li>
+        <li><a href="endocrinology.html">Diabetes</a></li>
+        <li><a href="endocrinology.html">Obesity Medicine</a></li>
+        <li><a href="cardiology.html">Cardiology</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="f-col-title">Contact</div>
+      <ul>
+        <li><a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a></li>
+        <li><a href="tel:0896567597">089 656 7597</a></li>
+        <li><a href="index.html#appointment">Book Appointment</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <p>© 2025 Naas Cardiology &amp; Endocrinology Clinic · All rights reserved</p>
+    <p style="font-size:0.68rem;color:rgba(255,255,255,0.18);margin-top:10px;line-height:1.55;">This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional. In a medical emergency, call 999 or 112. &nbsp;·&nbsp; We aim to meet WCAG 2.1 Level AA accessibility standards. &nbsp;·&nbsp; Consultation hours: Sundays 9am–5pm.</p>
+    <p style="font-size:0.67rem;color:rgba(196,144,60,0.35);margin-top:6px;">Dr Kazmi IMC: 213626 &nbsp;·&nbsp; Dr Kalyar IMC: 102093 &nbsp;·&nbsp; This practice is covered by medical indemnity insurance.</p>
+  </div>
+</footer>
+
+<!-- Cookie Banner -->
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+  <div class="cookie-banner-inner">
+    <p>We use cookies to analyse site traffic (Google Analytics). Essential cookies keep the site working. <a href="privacy.html">Privacy Policy</a></p>
+    <div class="cookie-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn--outline">Essential Only</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--primary">Accept All</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){var SIX_MONTHS=6*30*24*60*60*1000;var consent=localStorage.getItem('cookieConsent');var consentTime=parseInt(localStorage.getItem('cookieConsentTime')||'0',10);var expired=(Date.now()-consentTime)>SIX_MONTHS;if(!consent||expired){document.getElementById('cookieBanner').classList.add('visible');}function loadGA(){/* GA4 placeholder — insert measurement ID when available */}if(consent==='all'&&!expired){loadGA();}document.getElementById('cookieAccept').addEventListener('click',function(){localStorage.setItem('cookieConsent','all');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');loadGA();});document.getElementById('cookieReject').addEventListener('click',function(){localStorage.setItem('cookieConsent','essential');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');});})();
+</script>
+<script>
+const nav=document.getElementById('nav');
+const btn=document.getElementById('menuBtn');
+const links=document.getElementById('navLinks');
+window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>40));
+btn.addEventListener('click',()=>{const o=links.classList.toggle('open');btn.setAttribute('aria-expanded',o)});
+document.addEventListener('click',(e)=>{if(!links.contains(e.target)&&!btn.contains(e.target)&&links.classList.contains('open')){links.classList.remove('open');btn.setAttribute('aria-expanded','false');}});
+</script>
+</body>
+</html>

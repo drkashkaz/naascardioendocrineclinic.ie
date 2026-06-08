@@ -1,0 +1,2760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naas Cardiology & Endocrinology Clinic | Private Specialist Care, Kildare</title>
+  <meta name="description" content="Private cardiology and endocrinology clinic in Naas, Co. Kildare. Consultant-led diabetes, obesity, thyroid and cardiac care. Serving Naas, Newbridge, Kildare and Leinster. Sunday appointments available.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Naas Cardiology &amp; Endocrinology Clinic | Private Specialist Care, Kildare">
+  <meta property="og:description" content="Private specialist services in Endocrinology, Diabetes, Obesity Medicine and Cardiology. Serving Naas, Co. Kildare and the wider Leinster region.">
+  <meta property="og:image" content="dr-kazmi.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Naas Cardiology &amp; Endocrinology Clinic | Private Specialist Care, Kildare">
+  <meta name="twitter:description" content="Private specialist services in Endocrinology, Diabetes, Obesity Medicine and Cardiology. Serving Naas, Co. Kildare and the wider Leinster region.">
+  <meta property="og:url" content="https://naascardioendoclinic.xo.je/">
+  <link rel="canonical" href="https://naascardioendoclinic.xo.je/">
+  <meta name="twitter:image" content="dr-kazmi.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ─── TOKENS ─── */
+    :root {
+      --navy:        #09162A;
+      --navy-mid:    #112240;
+      --navy-light:  #1B3461;
+      --gold:        #C4903C;
+      --gold-light:  #E2B96A;
+      --gold-pale:   #F5E9CE;
+      --gold-muted:  #9C7228;
+      --crimson:     #8B1A2A;
+      --crimson-mid: #A52535;
+      --crimson-light:#C44055;
+      --white:       #FFFFFF;
+      --off-white:   #F6F3EE;
+      --cream:       #EDE8DF;
+      --text:        #1A1A2E;
+      --text-mid:    #4A4A68;
+      --text-soft:   #8888A8;
+      --border:      rgba(196,144,60,0.18);
+      --shadow-sm:   0 4px 20px rgba(9,22,42,0.08);
+      --shadow-md:   0 16px 50px rgba(9,22,42,0.12);
+      --shadow-lg:   0 28px 80px rgba(9,22,42,0.18);
+      --ease:        cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      --t:           all 0.38s var(--ease);
+    }
+
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Jost', sans-serif;
+      background: var(--off-white);
+      color: var(--text);
+      line-height: 1.65;
+      overflow-x: hidden;
+    }
+
+    /* ─── UTILITY ─── */
+    .section-tag {
+      display: inline-block;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.4rem, 4vw, 4rem);
+      font-weight: 400;
+      line-height: 1.08;
+      margin-bottom: 20px;
+      color: var(--text);
+    }
+
+    .section-title em { font-style: italic; color: var(--gold); }
+    .section-title.light { color: var(--white); }
+    .section-title.light em { color: var(--gold-light); }
+
+    .section-lead {
+      font-size: 1rem;
+      color: var(--text-mid);
+      line-height: 1.82;
+      max-width: 580px;
+    }
+
+    .section-lead.light { color: rgba(255,255,255,0.52); }
+
+    .btn-primary {
+      display: inline-block;
+      padding: 15px 38px;
+      background: linear-gradient(135deg, var(--gold), var(--gold-muted));
+      color: var(--white);
+      font-family: 'Jost', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 2px;
+      border: none;
+      cursor: pointer;
+      transition: var(--t);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 14px 40px rgba(196,144,60,0.48);
+    }
+
+    .btn-outline-light {
+      display: inline-block;
+      padding: 15px 38px;
+      background: transparent;
+      color: rgba(255,255,255,0.85);
+      font-family: 'Jost', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-decoration: none;
+      border-radius: 2px;
+      border: 1px solid rgba(255,255,255,0.24);
+      transition: var(--t);
+    }
+
+    .btn-outline-light:hover {
+      background: rgba(255,255,255,0.08);
+      border-color: rgba(255,255,255,0.5);
+      transform: translateY(-3px);
+    }
+
+    /* ─── REVEAL ─── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(36px);
+      transition: opacity 0.85s var(--ease), transform 0.85s var(--ease);
+    }
+
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+
+    /* ─── NAV ─── */
+    #nav {
+      position: fixed; top:0; left:0; right:0; z-index:200;
+      padding: 22px 64px;
+      display: flex; align-items: center; justify-content: space-between;
+      transition: var(--t);
+    }
+
+    #nav.scrolled {
+      background: rgba(9,22,42,0.93);
+      backdrop-filter: blur(22px) saturate(1.4);
+      padding: 14px 64px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-brand {
+      display: flex; flex-direction: column; gap: 2px;
+    }
+
+    .nav-brand-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.22rem;
+      font-weight: 600;
+      color: var(--white);
+      letter-spacing: 0.01em;
+      line-height: 1.1;
+    }
+
+    .nav-brand-sub {
+      font-size: 0.58rem;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+      opacity: 0.8;
+    }
+
+    .nav-links {
+      list-style: none;
+      display: flex; gap: 36px; align-items: center;
+    }
+
+    .nav-links a {
+      font-size: 0.73rem;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      position: relative;
+      transition: var(--t);
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute; bottom: -4px; left:0;
+      width:0; height: 1px;
+      background: var(--gold);
+      transition: width 0.32s var(--ease);
+    }
+
+    .nav-links a:hover { color: var(--gold-light); }
+    .nav-links a:hover::after { width: 100%; }
+
+    .nav-cta {
+      padding: 10px 22px !important;
+      background: linear-gradient(135deg, var(--gold), var(--gold-muted));
+      color: var(--white) !important;
+      border-radius: 2px;
+    }
+
+    .nav-cta::after { display: none; }
+    .nav-cta:hover { color: var(--white) !important; box-shadow: 0 8px 24px rgba(196,144,60,0.42); }
+
+    .nav-dropdown { position:relative; padding-bottom:16px; margin-bottom:-16px; }
+    .nav-dropdown > a { display:flex; align-items:center; gap:5px; }
+    .nav-dropdown > a::after { display:none; }
+    .nav-dropdown > a .chevron {
+      width:8px; height:8px;
+      border-right:1.5px solid currentColor;
+      border-bottom:1.5px solid currentColor;
+      transform:rotate(45deg) translateY(-2px);
+      transition: transform 0.3s ease;
+      flex-shrink:0;
+    }
+    .nav-dropdown:hover > a .chevron { transform:rotate(-135deg) translateY(-2px); }
+    .dropdown-menu {
+      display:none; position:absolute; top:100%; left:50%;
+      transform:translateX(-50%);
+      background:rgba(9,22,42,0.97); backdrop-filter:blur(20px);
+      border:1px solid var(--border); border-radius:3px;
+      padding:8px 0; min-width:220px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+    }
+    .nav-dropdown:hover .dropdown-menu { display:block; }
+    .dropdown-menu a {
+      display:block; padding:10px 20px;
+      font-size:0.72rem; font-weight:500;
+      letter-spacing:0.1em; text-transform:uppercase;
+      color:rgba(255,255,255,0.65); text-decoration:none;
+      transition:var(--t);
+    }
+    .dropdown-menu a::after { display:none; }
+    .dropdown-menu a:hover { background:rgba(255,255,255,0.05); color:var(--gold-light); padding-left:26px; }
+    .dropdown-menu .divider { height:1px; background:rgba(255,255,255,0.07); margin:6px 0; }
+
+    .menu-btn {
+      display: none; background: none; border: none; cursor: pointer;
+      flex-direction: column; gap: 5px; padding: 4px;
+    }
+
+    .menu-btn span {
+      width: 22px; height: 1.5px;
+      background: var(--white); display: block;
+      transition: var(--t);
+    }
+
+    /* ─── HERO ─── */
+    #hero {
+      min-height: 85vh;
+      background: var(--navy);
+      display: flex; align-items: center;
+      position: relative; overflow: hidden;
+    }
+
+    .hero-video {
+      position: absolute;
+      inset: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      z-index: 0;
+    }
+
+    .hero-video-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        105deg,
+        rgba(9,22,42,0.60) 0%,
+        rgba(9,22,42,0.38) 55%,
+        rgba(9,22,42,0.20) 100%
+      );
+      z-index: 1;
+    }
+
+
+    /* ECG line decoration */
+    .hero-ecg-line {
+      position: absolute;
+      bottom: 80px; left: 0; right: 0;
+      height: 60px; opacity: 0.08;
+      overflow: hidden;
+    }
+
+    .hero-ecg-line svg { width: 100%; height: 100%; }
+
+    .hero-content {
+      position: relative; z-index: 2;
+      padding: 0 64px;
+      max-width: 860px;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 12px;
+      padding: 9px 22px;
+      border: 1px solid rgba(196,144,60,0.38);
+      border-radius: 2px;
+      margin-bottom: 44px;
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.15s forwards;
+    }
+
+    .hero-eyebrow-dot {
+      width: 7px; height: 7px;
+      background: var(--gold);
+      border-radius: 50%;
+      animation: dotPulse 2.2s ease-in-out infinite;
+    }
+
+    @keyframes dotPulse {
+      0%,100% { opacity:1; transform:scale(1); }
+      50% { opacity:0.45; transform:scale(0.75); }
+    }
+
+    .hero-eyebrow span {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold-light);
+    }
+
+    .hero-h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(4rem, 7vw, 7.2rem);
+      font-weight: 400;
+      color: #ffffff;
+      line-height: 1.0;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+      text-shadow: 0 2px 24px rgba(0,0,0,0.55);
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.3s forwards;
+    }
+
+    .hero-h1 em {
+      font-style: italic;
+      color: var(--gold-light);
+      text-shadow: 0 2px 20px rgba(196,144,60,0.45);
+    }
+
+    .hero-h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.6rem, 2.8vw, 2.6rem);
+      font-weight: 400;
+      color: rgba(255,255,255,0.82);
+      line-height: 1.3;
+      margin-bottom: 38px;
+      text-shadow: 0 1px 12px rgba(0,0,0,0.50);
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.42s forwards;
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      font-weight: 400;
+      color: rgba(255,255,255,0.80);
+      line-height: 1.85;
+      max-width: 540px;
+      margin-bottom: 52px;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.45);
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.54s forwards;
+    }
+
+    .hero-actions {
+      display: flex; gap: 16px; flex-wrap: wrap;
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.66s forwards;
+    }
+
+    .hero-meta {
+      position: absolute; bottom: 52px; right: 64px;
+      display: flex; gap: 52px;
+      z-index: 2;
+      opacity: 0;
+      animation: slideUp 0.9s var(--ease) 0.85s forwards;
+    }
+
+    .hero-brand-strip {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 80px;
+      background: linear-gradient(to top, rgba(9,22,42,0.97) 40%, rgba(9,22,42,0.0) 100%);
+      z-index: 2;
+      display: flex; align-items: flex-end; justify-content: center;
+      gap: 18px;
+      padding-bottom: 14px;
+    }
+    .hero-brand-strip::before,
+    .hero-brand-strip::after {
+      content: '';
+      display: block;
+      width: 48px; height: 1px;
+      background: var(--gold);
+      opacity: 0.55;
+    }
+    .hero-brand-strip span {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.30em; text-transform: uppercase;
+      color: rgba(255,255,255,0.70);
+      white-space: nowrap;
+    }
+
+    .hero-stat { text-align: center; }
+
+    .hero-stat-n {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.2rem; font-weight: 300;
+      color: var(--gold-light); line-height: 1;
+    }
+
+    .hero-stat-l {
+      font-size: 0.6rem; font-weight: 600;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: rgba(255,255,255,0.70);
+      margin-top: 6px;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.40);
+    }
+
+    @keyframes slideUp {
+      from { opacity:0; transform: translateY(28px); }
+      to   { opacity:1; transform: translateY(0); }
+    }
+
+    /* ─── ABOUT ─── */
+    #about {
+      background: var(--white);
+      padding: 110px 64px;
+    }
+
+    .about-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.15fr;
+      gap: 96px;
+      max-width: 1280px;
+      margin: 0 auto;
+      align-items: start;
+    }
+
+    .about-pillars {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 48px;
+    }
+
+    .pillar {
+      padding: 24px 22px;
+      border-left: 3px solid var(--gold);
+      background: var(--off-white);
+      transition: var(--t);
+    }
+
+    .pillar:hover {
+      background: var(--cream);
+      transform: translateX(4px);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .pillar h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 7px;
+    }
+
+    .pillar p { font-size: 0.83rem; color: var(--text-mid); line-height: 1.65; }
+
+    /* Dark card */
+    .about-card {
+      background: var(--navy);
+      border-radius: 3px;
+      padding: 54px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about-card-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(196,144,60,0.09);
+    }
+
+    .about-card-ring:nth-child(1) { width:520px; height:520px; top:-160px; right:-160px; }
+    .about-card-ring:nth-child(2) { width:340px; height:340px; top:-80px; right:-80px; }
+
+    .about-card-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.85rem;
+      font-weight: 300;
+      font-style: italic;
+      color: var(--gold-light);
+      line-height: 1.42;
+      margin-bottom: 28px;
+      position: relative; z-index: 1;
+    }
+
+    .about-card-body {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.52);
+      line-height: 1.85;
+      margin-bottom: 38px;
+      position: relative; z-index: 1;
+    }
+
+    .about-card-address {
+      display: flex; align-items: flex-start; gap: 14px;
+      padding: 22px 0 0;
+      border-top: 1px solid rgba(196,144,60,0.18);
+      position: relative; z-index: 1;
+    }
+
+    .pin { font-size: 1.2rem; flex-shrink:0; margin-top:2px; }
+
+    .address-lines {
+      font-size: 0.84rem;
+      color: rgba(255,255,255,0.52);
+      line-height: 1.65;
+    }
+
+    .address-lines strong { color: var(--white); font-weight: 500; }
+
+    /* ─── DOCTOR DUO ─── */
+    #doctors {
+      background: var(--navy);
+      overflow: hidden;
+    }
+
+    .doctors-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .doc-panel {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    .doc-panel--endo { border-top: 3px solid var(--gold); }
+    .doc-panel--cardio { border-top: 3px solid var(--crimson); border-left: 1px solid rgba(255,255,255,0.06); }
+
+    .doc-img-wrap {
+      position: relative;
+      overflow: hidden;
+      height: 540px;
+      background: var(--navy);
+    }
+
+    .doc-photo {
+      display: block;
+      width: 100%; height: 100%;
+      object-fit: contain;
+      object-position: center top;
+      opacity: 0.9;
+      transition: transform 0.65s var(--ease), opacity 0.38s var(--ease);
+    }
+
+    .doc-panel:hover .doc-photo {
+      transform: scale(1.03);
+      opacity: 0.75;
+    }
+
+    .doc-gradient {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(9,22,42,0.55) 0%, rgba(9,22,42,0.0) 50%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    .doc-hover-overlay {
+      position: absolute; inset: 0;
+      display: flex; align-items: center; justify-content: center;
+      z-index: 2;
+      opacity: 0;
+      transition: opacity 0.38s var(--ease);
+    }
+
+    .doc-panel--endo .doc-hover-overlay  { background: rgba(196,144,60,0.15); }
+    .doc-panel--cardio .doc-hover-overlay { background: rgba(139,26,42,0.18); }
+    .doc-panel:hover .doc-hover-overlay  { opacity: 1; }
+
+    .doc-hover-cta {
+      font-size: 0.72rem; font-weight: 700;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--white);
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.28);
+      padding: 13px 28px; border-radius: 2px;
+      transition: var(--t);
+    }
+
+    .doc-panel:hover .doc-hover-cta { background: rgba(255,255,255,0.18); }
+
+    .doc-info {
+      background: var(--navy);
+      padding: 36px 44px;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .doc-spec {
+      font-size: 0.6rem; font-weight: 700;
+      letter-spacing: 0.24em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 10px;
+    }
+
+    .doc-spec--cardio { color: var(--crimson-light); }
+
+    .doc-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.5rem, 2.2vw, 2.1rem);
+      font-weight: 400; color: var(--white);
+      line-height: 1.1; margin-bottom: 8px;
+    }
+
+    .doc-creds {
+      font-size: 0.73rem;
+      color: rgba(255,255,255,0.38);
+      letter-spacing: 0.02em;
+    }
+
+    /* ─── ABOUT STATS ─── */
+    .about-stats {
+      display: flex; gap: 40px;
+      margin-top: 44px; flex-wrap: wrap;
+    }
+
+    .about-stat { display: flex; flex-direction: column; gap: 5px; }
+
+    .about-stat-n {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem; font-weight: 300;
+      color: var(--gold); line-height: 1;
+    }
+
+    .about-stat-l {
+      font-size: 0.58rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      color: var(--text-soft);
+    }
+
+    /* ─── SERVICES ─── */
+    #services {
+      background: var(--off-white);
+      padding: 110px 64px;
+    }
+
+    .services-head {
+      max-width: 1280px; margin: 0 auto 56px;
+      display: flex; justify-content: space-between; align-items: flex-end;
+      gap: 40px;
+    }
+
+    .services-grid {
+      max-width: 1280px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(2,1fr); gap: 22px;
+    }
+
+    .svc-card {
+      background: var(--white);
+      padding: 48px 44px 40px;
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0,0.04);
+      position: relative; overflow: hidden;
+      transition: var(--t);
+      cursor: pointer;
+      display: flex; flex-direction: column;
+      text-decoration: none; color: inherit;
+    }
+
+    .svc-card::before {
+      content: '';
+      position: absolute; bottom:0; left:0; right:0; height:3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.42s var(--ease);
+    }
+
+    .svc-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-7px); }
+    .svc-card:hover::before { transform: scaleX(1); }
+
+    .svc-list { flex:1; }
+
+    .svc-cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 28px;
+      font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--gold-muted);
+      transition: gap 0.28s var(--ease), color 0.28s;
+    }
+    .svc-cta svg { width:14px; height:14px; stroke:currentColor; fill:none; flex-shrink:0; }
+    .svc-card:hover .svc-cta { gap:14px; color: var(--gold); }
+
+    .svc-index {
+      position: absolute; top:24px; right:30px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 5.5rem; font-weight: 300;
+      color: rgba(0,0,0,0.03); line-height:1;
+      pointer-events: none;
+    }
+
+    .svc-icon {
+      width: 54px; height: 54px;
+      background: linear-gradient(135deg, rgba(196,144,60,0.1), rgba(196,144,60,0.04));
+      border-radius: 3px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 28px;
+    }
+
+    .svc-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.9rem; font-weight: 500;
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+
+    .svc-desc {
+      font-size: 0.88rem; color: var(--text-mid);
+      line-height: 1.78; margin-bottom: 26px;
+    }
+
+    .svc-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+
+    .svc-list li {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 0.82rem; color: var(--text-mid); line-height: 1.5;
+    }
+
+    .svc-list li::before {
+      content: '';
+      width: 5px; height: 5px;
+      background: var(--gold); border-radius: 50%;
+      flex-shrink: 0; margin-top: 7px;
+    }
+
+    /* ─── GLP-1 ARTICLE ─── */
+    #glp1-article {
+      background: #f8f6f1;
+      padding: 110px 64px;
+      position: relative;
+    }
+    #glp1-article::before {
+      content:'';
+      position:absolute; top:0; left:0; right:0; height:4px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light), var(--gold));
+    }
+    .article-inner { max-width:1280px; margin:0 auto; }
+    .article-label {
+      display:flex; align-items:center; gap:20px; margin-bottom:28px;
+    }
+    .article-tag {
+      font-size:0.62rem; font-weight:700; letter-spacing:0.22em; text-transform:uppercase;
+      background:linear-gradient(135deg, var(--gold), var(--gold-muted));
+      color:var(--white); padding:6px 14px; border-radius:2px;
+    }
+    .article-date {
+      font-size:0.75rem; color:var(--text-mid); letter-spacing:0.04em; font-style:italic;
+    }
+    .article-title {
+      font-family:'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight:600; color:var(--navy); line-height:1.18;
+      margin-bottom:32px;
+    }
+    .article-lead {
+      max-width:860px; margin-bottom:56px;
+      padding:28px 32px;
+      background:var(--white); border-left:4px solid var(--gold);
+      border-radius:0 3px 3px 0;
+    }
+    .article-lead p { font-size:1rem; line-height:1.82; color:var(--text-mid); }
+    .article-body {
+      display:grid; grid-template-columns:1fr 1fr; gap:48px; margin-bottom:56px;
+    }
+    .article-block { margin-bottom:40px; }
+    .article-block:last-child { margin-bottom:0; }
+    .article-block h3 {
+      font-family:'Cormorant Garamond', serif;
+      font-size:1.4rem; font-weight:600; color:var(--navy);
+      margin-bottom:14px;
+      padding-bottom:10px; border-bottom:1px solid rgba(0,0,0,0.08);
+    }
+    .article-block p {
+      font-size:0.875rem; line-height:1.84; color:var(--text-mid);
+      margin-bottom:14px;
+    }
+    .article-block p:last-child { margin-bottom:0; }
+    .article-list { list-style:none; display:flex; flex-direction:column; gap:8px; margin:14px 0; }
+    .article-list li {
+      font-size:0.82rem; line-height:1.6; color:var(--text-mid);
+      padding-left:18px; position:relative;
+    }
+    .article-list li::before {
+      content:''; position:absolute; left:0; top:9px;
+      width:6px; height:6px; background:var(--gold);
+      border-radius:50%;
+    }
+    .article-warning {
+      background:linear-gradient(135deg, var(--navy), var(--navy-mid));
+      border-radius:4px; padding:36px 32px;
+      margin-bottom:40px; color:var(--white);
+    }
+    .warning-icon {
+      width:48px; height:48px;
+      background:rgba(196,144,60,0.15); border-radius:50%;
+      display:flex; align-items:center; justify-content:center;
+      margin-bottom:20px; color:var(--gold-light);
+    }
+    .warning-icon svg { width:24px; height:24px; }
+    .article-warning h4 {
+      font-family:'Cormorant Garamond', serif;
+      font-size:1.3rem; font-weight:600; color:var(--white);
+      margin-bottom:18px;
+    }
+    .article-warning ul { list-style:none; display:flex; flex-direction:column; gap:14px; }
+    .article-warning li {
+      font-size:0.82rem; line-height:1.7; color:rgba(255,255,255,0.75);
+      padding-left:16px; position:relative;
+    }
+    .article-warning li::before {
+      content:''; position:absolute; left:0; top:9px;
+      width:5px; height:5px; background:var(--gold);
+      border-radius:50%;
+    }
+    .article-cta {
+      display:flex; align-items:center; justify-content:space-between; gap:32px;
+      background:var(--white); border:1px solid rgba(0,0,0,0.06);
+      border-radius:4px; padding:36px 44px;
+      box-shadow: var(--shadow-sm);
+    }
+    .article-cta-text {
+      font-size:0.92rem; line-height:1.72; color:var(--text-mid); max-width:680px;
+    }
+    .article-cta-text strong { color:var(--navy); display:block; margin-bottom:6px; font-size:1rem; }
+    .article-cta-btn {
+      flex-shrink:0;
+      padding:14px 32px;
+      background:linear-gradient(135deg, var(--gold), var(--gold-muted));
+      color:var(--white); text-decoration:none;
+      font-size:0.72rem; font-weight:600; letter-spacing:0.16em; text-transform:uppercase;
+      border-radius:2px; white-space:nowrap;
+      transition: box-shadow 0.28s, transform 0.28s;
+    }
+    .article-cta-btn:hover { box-shadow:0 8px 28px rgba(196,144,60,0.38); transform:translateY(-2px); }
+
+    /* ─── TEAM ─── */
+    #team {
+      background: var(--navy);
+      padding: 110px 64px;
+      position: relative; overflow: hidden;
+    }
+
+    .team-bg-ring {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px solid rgba(196,144,60,0.06);
+      pointer-events: none;
+    }
+
+    .team-bg-ring:nth-child(1) { width:800px; height:800px; bottom:-300px; left:-200px; }
+    .team-bg-ring:nth-child(2) { width:500px; height:500px; bottom:-180px; left:-60px; border-color:rgba(196,144,60,0.04); }
+
+    .team-head {
+      max-width: 1280px; margin: 0 auto 56px;
+    }
+
+    .team-grid {
+      max-width: 1280px; margin: 0 auto;
+      display: grid; grid-template-columns: repeat(2,1fr); gap: 28px;
+    }
+
+    .team-card {
+      background: rgba(255,255,255,0.038);
+      border: 1px solid rgba(196,144,60,0.16);
+      border-radius: 3px;
+      padding: 48px;
+      position: relative; overflow: hidden;
+      transition: var(--t);
+    }
+
+    .team-card::before {
+      content:'';
+      position:absolute; top:0; left:0; right:0; height:3px;
+      background: linear-gradient(90deg, var(--gold), transparent);
+    }
+
+    .team-card:hover {
+      background: rgba(255,255,255,0.065);
+      border-color: rgba(196,144,60,0.32);
+      transform: translateY(-5px);
+    }
+
+    .team-initials {
+      width: 76px; height: 76px;
+      background: linear-gradient(135deg, var(--gold-muted), var(--gold));
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem; font-weight: 600;
+      color: var(--white);
+      margin-bottom: 24px;
+      letter-spacing: 0.02em;
+      flex-shrink: 0;
+    }
+
+    .team-photo {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      object-fit: cover; object-position: center top;
+      border: 3px solid rgba(196,144,60,0.45);
+      box-shadow: 0 0 0 6px rgba(196,144,60,0.08), 0 10px 32px rgba(0,0,0,0.45);
+      margin-bottom: 24px;
+      flex-shrink: 0;
+      display: block;
+    }
+
+    .team-spec {
+      font-size: 0.6rem; font-weight: 700;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold); margin-bottom: 9px;
+    }
+
+    .team-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.95rem; font-weight: 500;
+      color: var(--white); margin-bottom: 7px; line-height: 1.1;
+    }
+
+    .team-creds {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.35);
+      letter-spacing: 0.04em;
+      margin-bottom: 24px;
+    }
+
+    .team-bio {
+      font-size: 0.87rem;
+      color: rgba(255,255,255,0.52);
+      line-height: 1.82; margin-bottom: 10px;
+    }
+
+    .team-reg {
+      font-size: 0.75rem;
+      color: rgba(196,144,60,0.55);
+      margin-bottom: 26px;
+    }
+
+    .team-tags {
+      display: flex; flex-wrap: wrap; gap: 7px;
+    }
+
+    .team-tag {
+      padding: 4px 13px;
+      border: 1px solid rgba(196,144,60,0.22);
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.04em;
+      border-radius: 2px;
+      transition: var(--t);
+    }
+
+    .team-card:hover .team-tag {
+      border-color: rgba(196,144,60,0.4);
+      color: var(--gold-light);
+    }
+
+    /* ─── BOOKING FORM ─── */
+    #appointment {
+      background: var(--white);
+      padding: 110px 64px;
+    }
+
+    .booking-layout {
+      max-width: 1280px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1.55fr; gap: 88px;
+      align-items: start;
+    }
+
+    .booking-info { position: sticky; top: 110px; }
+
+    .booking-perks {
+      margin-top: 44px;
+      display: flex; flex-direction: column; gap: 20px;
+    }
+
+    .perk {
+      display: flex; align-items: flex-start; gap: 16px;
+    }
+
+    .perk-icon {
+      width: 42px; height: 42px;
+      background: rgba(196,144,60,0.08);
+      border-radius: 3px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.1rem; flex-shrink: 0;
+      color: var(--gold);
+    }
+
+    .perk-text strong {
+      display: block;
+      font-size: 0.87rem; font-weight: 600;
+      color: var(--navy); margin-bottom: 2px;
+    }
+
+    .perk-text p {
+      font-size: 0.8rem; color: var(--text-mid); line-height: 1.55;
+    }
+
+    .perk-text a { color: var(--gold); text-decoration: none; }
+    .perk-text a:hover { text-decoration: underline; }
+
+    /* Form wrapper */
+    .form-shell {
+      background: var(--off-white);
+      padding: 52px;
+      border-radius: 3px;
+      border: 1px solid rgba(0,0,0,0.05);
+    }
+
+    .form-head-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.85rem; font-weight: 500;
+      color: var(--navy); margin-bottom: 6px;
+    }
+
+    .form-head-sub {
+      font-size: 0.83rem; color: var(--text-mid);
+      margin-bottom: 36px;
+    }
+
+    .f-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .f-group { margin-bottom: 18px; }
+    .f-group.span2 { grid-column: 1 / -1; }
+
+    .f-label {
+      display: block;
+      font-size: 0.68rem; font-weight: 700;
+      letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--navy); margin-bottom: 8px;
+    }
+
+    .f-label .req { color: var(--gold); margin-left: 2px; }
+
+    .f-input, .f-select, .f-textarea {
+      width: 100%;
+      padding: 13px 17px;
+      background: var(--white);
+      border: 1px solid rgba(0,0,0,0.1);
+      border-radius: 2px;
+      font-family: 'Jost', sans-serif;
+      font-size: 0.88rem;
+      color: var(--text);
+      outline: none;
+      transition: var(--t);
+      -webkit-appearance: none; appearance: none;
+    }
+
+    .f-input:focus, .f-select:focus, .f-textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(196,144,60,0.12);
+    }
+
+    .f-input::placeholder, .f-textarea::placeholder {
+      color: rgba(0,0,0,0.22);
+      font-style: italic;
+    }
+
+    .f-select {
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='11' height='7' viewBox='0 0 11 7'%3E%3Cpath d='M1 1l4.5 4.5L10 1' stroke='%23C4903C' stroke-width='1.8' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+      padding-right: 38px;
+      cursor: pointer;
+    }
+
+    .f-textarea { resize: vertical; min-height: 112px; }
+
+    .f-error {
+      display: none;
+      font-size: 0.72rem; color: #e53935;
+      margin-top: 5px;
+    }
+
+    .f-group.has-error .f-input,
+    .f-group.has-error .f-select,
+    .f-group.has-error .f-textarea {
+      border-color: #e53935;
+      box-shadow: 0 0 0 3px rgba(229,57,53,0.1);
+    }
+
+    .f-group.has-error .f-error { display: block; }
+
+    /* Consent */
+    .consent-row {
+      display: flex; align-items: flex-start; gap: 12px;
+      margin-bottom: 26px;
+    }
+
+    .consent-row input[type="checkbox"] {
+      width: 17px; height: 17px;
+      flex-shrink: 0; margin-top: 3px;
+      accent-color: var(--gold); cursor: pointer;
+    }
+
+    .consent-row label {
+      font-size: 0.78rem; color: var(--text-mid);
+      line-height: 1.65; cursor: pointer;
+    }
+
+    /* Submit */
+    .f-submit {
+      width: 100%;
+      padding: 18px;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      color: var(--white);
+      border: none; border-radius: 2px;
+      font-family: 'Jost', sans-serif;
+      font-size: 0.77rem; font-weight: 700;
+      letter-spacing: 0.2em; text-transform: uppercase;
+      cursor: pointer;
+      transition: var(--t);
+    }
+
+    .f-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(9,22,42,0.38);
+    }
+
+    .f-submit:disabled {
+      opacity: 0.7; cursor: not-allowed; transform: none;
+    }
+
+    .form-warning {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.55);
+      margin-top: 12px;
+      line-height: 1.6;
+    }
+
+    .form-head-sub-advisory {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.60);
+      margin-bottom: 24px;
+      line-height: 1.7;
+      max-width: 540px;
+    }
+
+    .local-seo-para {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.50);
+      margin-top: 20px;
+      line-height: 1.7;
+    }
+
+    .fees-section { background: #f7f8fc; }
+
+    .adult-notice {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.55);
+      margin-top: 16px;
+      font-style: italic;
+    }
+
+    /* Progress indicator */
+    .f-progress {
+      display: flex; gap: 0; margin-bottom: 28px;
+      border-radius: 2px; overflow: hidden;
+    }
+
+    .f-progress-step {
+      height: 3px; flex: 1;
+      background: rgba(0,0,0,0.08);
+      transition: background 0.4s ease;
+    }
+
+    .f-progress-step.active { background: var(--gold); }
+
+    /* Success */
+    .f-success {
+      display: none;
+      text-align: center; padding: 52px 24px;
+    }
+
+    .f-success.show { display: block; }
+
+    .success-ring {
+      width: 84px; height: 84px;
+      border-radius: 50%;
+      background: rgba(196,144,60,0.1);
+      border: 2px solid rgba(196,144,60,0.3);
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 24px;
+      font-size: 2rem;
+    }
+
+    .success-h {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.1rem; color: var(--navy);
+      margin-bottom: 14px;
+    }
+
+    .success-p {
+      font-size: 0.88rem; color: var(--text-mid);
+      line-height: 1.75;
+    }
+
+    .success-p a { color: var(--gold); text-decoration: none; }
+
+    /* ─── GP REFERRALS ─── */
+    #referrals {
+      background: linear-gradient(135deg, var(--navy-mid) 0%, var(--navy) 100%);
+      padding: 100px 64px;
+    }
+
+    .referrals-layout {
+      max-width: 1280px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+      align-items: start;
+    }
+
+    .ref-steps { margin-top: 44px; display: flex; flex-direction: column; gap: 22px; }
+
+    .ref-step { display: flex; align-items: flex-start; gap: 22px; }
+
+    .ref-n {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem; font-weight: 300;
+      color: rgba(196,144,60,0.25); line-height: 1;
+      min-width: 48px;
+    }
+
+    .ref-step strong {
+      display: block; font-size: 0.88rem; font-weight: 600;
+      color: var(--white); margin-bottom: 4px;
+    }
+
+    .ref-step p { font-size: 0.82rem; color: rgba(255,255,255,0.45); line-height: 1.6; }
+
+    .ref-card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 3px; padding: 44px;
+    }
+
+    .contact-row {
+      display: flex; align-items: flex-start; gap: 18px;
+      padding: 18px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.055);
+    }
+
+    .contact-row:last-of-type { border-bottom: none; }
+
+    .ci { font-size: 1.2rem; color: var(--gold); flex-shrink:0; margin-top:3px; }
+
+    .cd strong {
+      display: block;
+      font-size: 0.64rem; font-weight: 700;
+      letter-spacing: 0.18em; text-transform: uppercase;
+      color: var(--gold-light); opacity: 0.8;
+      margin-bottom: 5px;
+    }
+
+    .cd p, .cd a {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.6);
+      text-decoration: none;
+      line-height: 1.65;
+      transition: var(--t);
+    }
+
+    .cd a:hover { color: var(--gold-light); }
+
+    /* ─── CONTACT / MAP ─── */
+    #contact { padding: 0; }
+
+    .contact-layout {
+      display: grid; grid-template-columns: 1fr 1.5fr;
+    }
+
+    .contact-panel {
+      background: var(--off-white);
+      padding: 88px 64px;
+      display: flex; flex-direction: column; justify-content: center;
+    }
+
+    .map-wrap {
+      min-height: 500px;
+      background: var(--cream);
+      position: relative; overflow: hidden;
+    }
+
+    .map-wrap iframe {
+      width: 100%; height: 100%;
+      border: none;
+      position: absolute; inset: 0;
+    }
+
+    /* ─── FOOTER ─── */
+    footer {
+      background: var(--navy);
+      padding: 72px 64px 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer-grid {
+      max-width: 1280px; margin: 0 auto;
+      display: grid; grid-template-columns: 2.2fr 1fr 1fr 1fr;
+      gap: 64px;
+    }
+
+    .footer-brand-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem; font-weight: 600;
+      color: var(--white); line-height: 1.15;
+      display: block; margin-bottom: 5px;
+    }
+
+    .footer-brand-sub {
+      font-size: 0.58rem; font-weight: 600;
+      letter-spacing: 0.22em; text-transform: uppercase;
+      color: var(--gold-light); opacity: 0.7;
+      display: block; margin-bottom: 22px;
+    }
+
+    .footer-brand p {
+      font-size: 0.81rem;
+      color: rgba(255,255,255,0.36);
+      line-height: 1.75; max-width: 270px;
+      margin-bottom: 28px;
+    }
+
+    .footer-badges { display: flex; flex-wrap: wrap; gap: 7px; }
+
+    .footer-badge {
+      padding: 3px 10px;
+      border: 1px solid rgba(196,144,60,0.2);
+      font-size: 0.58rem; font-weight: 700;
+      letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.3);
+      border-radius: 1px;
+    }
+
+    .footer-col h5 {
+      font-size: 0.6rem; font-weight: 700;
+      letter-spacing: 0.28em; text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 18px;
+    }
+
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 11px; }
+
+    .footer-col a {
+      font-size: 0.81rem;
+      color: rgba(255,255,255,0.38);
+      text-decoration: none;
+      transition: var(--t);
+    }
+
+    .footer-col a:hover { color: var(--gold-light); }
+
+    .footer-bottom {
+      max-width: 1280px; margin: 44px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid rgba(255,255,255,0.048);
+      display: flex; justify-content: space-between; align-items: center;
+    }
+
+    .footer-bottom p {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.22);
+    }
+
+    .footer-bottom .reg {
+      font-size: 0.68rem;
+      color: rgba(196,144,60,0.45);
+    }
+
+    .footer-legal-links {
+      max-width: 1280px; margin: 28px auto 0;
+      display: flex; flex-wrap: wrap; gap: 6px 20px;
+      justify-content: center;
+    }
+    .footer-legal-links a {
+      font-size: 0.72rem; color: rgba(255,255,255,0.38);
+      text-decoration: none; transition: color 0.2s;
+    }
+    .footer-legal-links a:hover { color: var(--gold); }
+
+    .footer-emergency {
+      max-width: 1280px; margin: 14px auto 0;
+      font-size: 0.72rem; color: rgba(255,255,255,0.32);
+      line-height: 1.6; text-align: center;
+    }
+
+    /* ─── RESPONSIVE ─── */
+    @media (max-width: 1080px) {
+      #nav, #nav.scrolled { padding-left: 36px; padding-right: 36px; }
+      #about, #appointment, footer { padding-left: 36px; padding-right: 36px; }
+      #referrals { padding-left: 36px; padding-right: 36px; }
+      .hero-content { padding: 0 36px; }
+      .hero-meta { right: 36px; }
+      .about-layout { gap: 60px; }
+      .doc-info { padding: 36px 36px; }
+      .booking-layout { grid-template-columns: 1fr; gap: 52px; }
+      .booking-info { position: static; }
+      .referrals-layout { grid-template-columns: 1fr; gap: 52px; }
+      .contact-layout { grid-template-columns: 1fr; }
+      .map-wrap { min-height: 420px; position: relative; height: 420px; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 40px; }
+    }
+
+    @media (max-width: 768px) {
+      #nav, #nav.scrolled { padding: 14px 22px; }
+      .nav-links { display: none; flex-direction: column; position: absolute; top: 100%; left: 0; right: 0; background: rgba(9,22,42,0.97); padding: 20px 22px 30px; gap: 18px; border-top: 1px solid var(--border); }
+      .nav-links.open { display: flex; }
+      .menu-btn { display: flex; }
+
+      #about, #appointment, footer { padding: 70px 22px; }
+      #referrals { padding: 70px 22px; }
+      .contact-panel { padding: 60px 22px; }
+      .hero-content { padding: 100px 22px 80px; }
+      .hero-meta { display: none; }
+      .about-layout { grid-template-columns: 1fr; gap: 48px; }
+      .about-stats { gap: 28px; }
+      .doctors-grid { grid-template-columns: 1fr; }
+      .doc-panel--cardio { border-left: none; border-top: 3px solid var(--crimson); }
+      .doc-img-wrap { height: 380px; }
+      .doc-info { padding: 28px 24px; }
+      .f-row { grid-template-columns: 1fr; }
+      .form-shell { padding: 28px 22px; }
+      .footer-grid { grid-template-columns: 1fr; gap: 36px; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+    }
+    /* Cookie Banner */
+    .cookie-banner{position:fixed;bottom:0;left:0;right:0;z-index:9999;background:#09162A;border-top:2px solid #C4903C;padding:18px 24px;display:none}
+    .cookie-banner.visible{display:block}
+    .cookie-banner-inner{max-width:1000px;margin:0 auto;display:flex;align-items:center;gap:24px;flex-wrap:wrap}
+    .cookie-banner-inner p{font-size:0.82rem;color:rgba(255,255,255,0.78);flex:1;min-width:260px;line-height:1.55}
+    .cookie-banner-inner p a{color:#E2B96A;text-decoration:underline}
+    .cookie-actions{display:flex;gap:12px;flex-shrink:0}
+    .cookie-btn{padding:10px 22px;font-family:'Jost',sans-serif;font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;border-radius:2px;cursor:pointer;border:none;transition:all 0.38s}
+    .cookie-btn--outline{background:transparent;border:1px solid rgba(196,144,60,0.5);color:rgba(255,255,255,0.7)}
+    .cookie-btn--outline:hover{border-color:#C4903C;color:#C4903C}
+    .cookie-btn--primary{background:linear-gradient(135deg,#C4903C,#9C7228);color:#fff}
+    .cookie-btn--primary:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(196,144,60,0.4)}
+    /* Art disclaimer */
+    .art-disclaimer{background:#FFF8E7;border-left:3px solid #C4903C;padding:18px 22px;margin-bottom:28px;border-radius:2px;font-size:0.88rem;color:#1A1A2E;line-height:1.65}
+    .art-edu-footer{background:#F6F3EE;border:1px solid rgba(196,144,60,0.2);border-radius:2px;padding:18px 22px;margin:32px 0;font-size:0.85rem;color:#4A4A68;line-height:1.65}
+    /* FAQ */
+    .faq-section{padding:clamp(60px,8vw,100px) clamp(20px,5vw,60px);background:#F6F3EE}
+    .faq-inner{max-width:860px;margin:0 auto}
+    .faq-item{border-bottom:1px solid rgba(196,144,60,0.18);overflow:hidden}
+    .faq-question{display:flex;justify-content:space-between;align-items:center;padding:20px 0;cursor:pointer;font-size:0.96rem;font-weight:600;color:#09162A;list-style:none;gap:16px}
+    .faq-question::-webkit-details-marker{display:none}
+    .faq-icon{flex-shrink:0;width:24px;height:24px;border-radius:50%;border:1px solid rgba(196,144,60,0.4);display:flex;align-items:center;justify-content:center;font-size:1rem;color:#C4903C;transition:transform 0.3s}
+    details[open] .faq-icon{transform:rotate(45deg)}
+    .faq-answer{padding-bottom:20px;font-size:0.91rem;color:#4A4A68;line-height:1.78}
+  </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalClinic",
+  "name": "Naas Cardiology & Endocrinology Clinic",
+  "url": "https://naascardioendoclinic.xo.je/",
+  "telephone": "+353896567597",
+  "email": "Syed.Kazmi@healthmail.ie",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Suite 5, Vista Primary Care Clinic, Ballymore Road",
+    "addressLocality": "Naas",
+    "addressRegion": "Co. Kildare",
+    "postalCode": "W91 E6H2",
+    "addressCountry": "IE"
+  },
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": "Sunday",
+    "opens": "09:00",
+    "closes": "17:00"
+  }],
+  "medicalSpecialty": ["Interventional Cardiology", "Cardiology", "Endocrinology", "Diabetes", "Obesity Medicine"],
+  "areaServed": ["Naas", "Kildare", "Leinster", "Ireland"],
+  "priceRange": "$$",
+  "hasMap": "https://maps.google.com/maps?q=Vista+Primary+Care+Clinic,+Ballymore+Road,+Naas,+Co.+Kildare",
+  "member": [
+    {
+      "@type": "Physician",
+      "name": "Dr Syed Kashif Hussain Kazmi",
+      "jobTitle": "Consultant Endocrinologist",
+      "identifier": "IMC: 213626"
+    },
+    {
+      "@type": "Physician",
+      "name": "Dr Imtiaz Ali Kalyar",
+      "jobTitle": "Consultant Interventional Cardiologist",
+      "identifier": "IMC: 102093"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Physician",
+      "name": "Dr Syed Kashif Hussain Kazmi",
+      "medicalSpecialty": ["Endocrinology", "Diabetes", "Obesity Medicine"],
+      "identifier": "IMC: 213626",
+      "honorificSuffix": "MRCPI, FRCP Glasgow",
+      "jobTitle": "Consultant Endocrinologist",
+      "worksFor": {"@type": "MedicalClinic", "name": "Naas Cardiology & Endocrinology Clinic", "url": "https://naascardioendoclinic.xo.je/"},
+      "telephone": "+353896567597",
+      "email": "Syed.Kazmi@healthmail.ie"
+    },
+    {
+      "@type": "Physician",
+      "name": "Dr Imtiaz Ali Kalyar",
+      "medicalSpecialty": ["Interventional Cardiology", "Cardiology"],
+      "identifier": "IMC: 102093",
+      "honorificSuffix": "FRCP London",
+      "jobTitle": "Consultant Interventional Cardiologist",
+      "worksFor": {"@type": "MedicalClinic", "name": "Naas Cardiology & Endocrinology Clinic", "url": "https://naascardioendoclinic.xo.je/"},
+      "telephone": "+353896567597",
+      "email": "Syed.Kazmi@healthmail.ie"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "Do I need a GP referral to see a specialist?", "acceptedAnswer": {"@type": "Answer", "text": "A GP referral is strongly recommended and preferred. Self-referrals are also accepted."}},
+    {"@type": "Question", "name": "How quickly can I get an appointment?", "acceptedAnswer": {"@type": "Answer", "text": "We aim to offer appointments within 1–4 weeks of receiving a referral, depending on clinical urgency."}},
+    {"@type": "Question", "name": "What conditions do you treat?", "acceptedAnswer": {"@type": "Answer", "text": "Endocrinology: diabetes, obesity, thyroid, adrenal, PCOS, pituitary. Cardiology: chest pain, hypertension, arrhythmia, heart failure."}},
+    {"@type": "Question", "name": "Do you accept VHI, Laya, Irish Life Health, or Aviva?", "acceptedAnswer": {"@type": "Answer", "text": "Please contact us directly to confirm your specific plan's coverage before attending."}},
+    {"@type": "Question", "name": "Where are you located and is there parking?", "acceptedAnswer": {"@type": "Answer", "text": "Suite 5, Vista Primary Care Clinic, Ballymore Road, Naas, Co. Kildare (W91 E6H2). Free car parking on-site."}},
+    {"@type": "Question", "name": "Do you treat children?", "acceptedAnswer": {"@type": "Answer", "text": "Our clinic primarily serves adult patients (18 years and over)."}}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Naas Cardiology & Endocrinology Clinic",
+  "url": "https://naascardioendoclinic.xo.je/",
+  "description": "Private specialist cardiology and endocrinology clinic in Naas, Co. Kildare, Ireland."
+}
+</script>
+</head>
+<body>
+
+<!-- ════════════════════ NAV ════════════════════ -->
+<nav id="nav">
+  <div class="nav-brand">
+    <span class="nav-brand-name">Naas Cardiology & Endocrinology</span>
+    <span class="nav-brand-sub">Private Specialist Clinic · Naas, Co. Kildare</span>
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#about">About</a></li>
+    <li class="nav-dropdown">
+      <a href="#doctors">Our Doctors <span class="chevron"></span></a>
+      <div class="dropdown-menu">
+        <a href="endocrinology.html">Endocrinology &amp; Diabetes</a>
+        <a href="cardiology.html">Cardiology</a>
+      </div>
+    </li>
+    <li><a href="referrers.html">For Referrers</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#appointment" class="nav-cta">Book Appointment</a></li>
+  </ul>
+
+  <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+
+<!-- ════════════════════ HERO ════════════════════ -->
+<section id="hero">
+
+  <video class="hero-video" autoplay muted loop playsinline>
+    <source src="Naas.mp4" type="video/mp4">
+  </video>
+  <div class="hero-video-overlay"></div>
+
+  <div class="hero-content">
+    <div class="hero-eyebrow">
+      <div class="hero-eyebrow-dot"></div>
+      <span>Now Accepting Referrals — Naas, Co. Kildare</span>
+    </div>
+
+    <h1 class="hero-h1">
+      Exceptional<br>
+      <em>Specialist Care</em>
+    </h1>
+
+    <p class="hero-h2">
+      Interventional Cardiology · Cardiology · Endocrinology<br>
+      Diabetes · Obesity Medicine
+    </p>
+
+    <p class="hero-desc">
+      Consultant-delivered private specialist care at the heart of Kildare.
+      Prompt appointments, expert diagnosis, and comprehensive management
+      of complex cardiometabolic conditions — all under one roof.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#appointment" class="btn-primary">Book Appointment</a>
+      <a href="#referrals" class="btn-outline-light">GP Referrals</a>
+    </div>
+  </div>
+
+  <div class="hero-meta">
+    <div class="hero-stat">
+      <div class="hero-stat-n">2</div>
+      <div class="hero-stat-l">Consultants</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-n">20+</div>
+      <div class="hero-stat-l">Years Experience</div>
+    </div>
+    <div class="hero-stat">
+      <div class="hero-stat-n">5</div>
+      <div class="hero-stat-l">Specialties</div>
+    </div>
+  </div>
+
+  <div class="hero-brand-strip">
+    <span>Where Expertise Meets Compassionate Care</span>
+  </div>
+
+</section>
+
+
+<!-- ════════════════════ DOCTOR DUO ════════════════════ -->
+<section id="doctors">
+  <div class="doctors-grid">
+
+    <!-- Dr Kazmi — Endocrinology -->
+    <a class="doc-panel doc-panel--endo reveal" href="endocrinology.html">
+      <div class="doc-img-wrap">
+        <img class="doc-photo" src="dr-kazmi.jpg" alt="Dr Syed Kashif Hussain Kazmi, Consultant Endocrinologist at Naas Cardiology and Endocrinology Clinic" loading="lazy">
+        <div class="doc-gradient"></div>
+        <div class="doc-hover-overlay">
+          <span class="doc-hover-cta">View Endocrinology Services →</span>
+        </div>
+      </div>
+      <div class="doc-info">
+        <div class="doc-spec">Endocrinology · Diabetes · Obesity Medicine</div>
+        <h2 class="doc-name">Dr Syed Kashif Hussain Kazmi</h2>
+        <p class="doc-creds">MRCPI · MRCP (UK) · FRCP Glasgow · CCT · 3,500+ GLP-1 Patients · 20+ Years</p>
+      </div>
+    </a>
+
+    <!-- Dr Kalyar — Cardiology -->
+    <a class="doc-panel doc-panel--cardio reveal" href="cardiology.html">
+      <div class="doc-img-wrap">
+        <img class="doc-photo" src="dr-kalyar.png" alt="Dr Imtiaz Ali Kalyar, Consultant Interventional Cardiologist at Naas Cardiology and Endocrinology Clinic" loading="lazy">
+        <div class="doc-gradient"></div>
+        <div class="doc-hover-overlay">
+          <span class="doc-hover-cta">View Cardiology Services →</span>
+        </div>
+      </div>
+      <div class="doc-info">
+        <div class="doc-spec doc-spec--cardio">Interventional Cardiology · General Cardiology</div>
+        <h2 class="doc-name">Dr Imtiaz Ali Kalyar</h2>
+        <p class="doc-creds">MRCP (London) · FRCP (London) · 1,459 PCIs · NEJM Published · IMC: 102093</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════ ABOUT ════════════════════ -->
+<section id="about">
+  <div class="about-layout">
+    <div class="reveal">
+      <span class="section-tag">About the Clinic</span>
+      <h2 class="section-title">Integrated <em>Cardiometabolic</em> Care</h2>
+      <p class="section-lead">
+        Established to meet the growing need for accessible, high-quality specialist care
+        in Naas, Co. Kildare. Prompt appointments, direct consultant contact, and structured
+        clinical correspondence that genuinely supports your primary care team.
+        Every patient is seen personally by a consultant — no trainees, no exceptions.
+      </p>
+
+      <div class="about-stats">
+        <div class="about-stat">
+          <span class="about-stat-n">2</span>
+          <span class="about-stat-l">Consultants</span>
+        </div>
+        <div class="about-stat">
+          <span class="about-stat-n">5</span>
+          <span class="about-stat-l">Specialties</span>
+        </div>
+        <div class="about-stat">
+          <span class="about-stat-n">20+</span>
+          <span class="about-stat-l">Yrs Experience</span>
+        </div>
+        <div class="about-stat">
+          <span class="about-stat-n">CCT</span>
+          <span class="about-stat-l">UK Trained</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="about-card">
+        <div class="about-card-ring"></div>
+        <div class="about-card-ring"></div>
+        <p class="about-card-quote">
+          "Timely access, clear communication, and clinically useful reports that genuinely support shared care."
+        </p>
+        <p class="about-card-body">
+          Our clinic was founded with a clear vision: to bring the quality of consultant-led specialist
+          care found at leading academic centres directly to the people of Kildare and Leinster —
+          delivered locally, promptly, and with the personal attention that specialist private practice
+          uniquely affords.
+          <br><br>
+          Our combined cardiology and endocrinology model allows seamless integrated management
+          of patients presenting with diabetes, obesity, dyslipidaemia, hypertension, and other
+          complex cardiometabolic conditions.
+        </p>
+        <p class="local-seo-para">Naas Cardiology &amp; Endocrinology Clinic provides private consultant-led cardiology, endocrinology, diabetes and obesity medicine services for patients in Naas, Newbridge, Sallins, Clane, Kilcullen, Maynooth, Blessington, Co. Kildare and the wider Leinster region.</p>
+        <div class="about-card-address">
+          <span class="pin">📍</span>
+          <div class="address-lines">
+            <strong>Suite 5, Vista Primary Care Clinic</strong><br>
+            Ballymore Road, Naas, Co. Kildare<br>
+            Eircode: W91 E6H2
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════ SERVICES (removed — doctors section replaces this) ════════════════════ -->
+<section id="services" style="display:none">
+  <div class="services-head reveal">
+  </div>
+
+  <div class="services-grid">
+    <a class="svc-card reveal" href="endocrinology.html">
+      <div class="svc-index">01</div>
+      <div class="svc-icon">🧬</div>
+      <h3 class="svc-title">Endocrinology</h3>
+      <p class="svc-desc">Comprehensive evaluation and management of hormonal and endocrine conditions, from thyroid disorders to complex pituitary and adrenal disease.</p>
+      <ul class="svc-list">
+        <li>Thyroid disorders — hypothyroidism, hyperthyroidism, goitre, nodules</li>
+        <li>Pituitary, adrenal and calcium disorders</li>
+        <li>Male hypogonadism and testosterone deficiency</li>
+        <li>Polycystic Ovary Syndrome (PCOS)</li>
+        <li>Metabolic risk assessment and long-term management</li>
+      </ul>
+      <span class="svc-cta">Endocrinology services <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+
+    <a class="svc-card reveal" href="endocrinology.html">
+      <div class="svc-index">02</div>
+      <div class="svc-icon">💉</div>
+      <h3 class="svc-title">Diabetes</h3>
+      <p class="svc-desc">Expert management of all forms of diabetes using the latest therapies, devices, and evidence-based protocols.</p>
+      <ul class="svc-list">
+        <li>Complex type 1 and type 2 diabetes management</li>
+        <li>Insulin initiation, optimisation and titration</li>
+        <li>Continuous Glucose Monitor (CGM) interpretation</li>
+        <li>Insulin pump therapy assessment and management</li>
+        <li>Gestational, MODY, and atypical forms of diabetes</li>
+      </ul>
+      <span class="svc-cta">Diabetes services <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+
+    <a class="svc-card reveal" href="endocrinology.html#tab-obesity">
+      <div class="svc-index">03</div>
+      <div class="svc-icon">⚖️</div>
+      <h3 class="svc-title">Obesity Medicine</h3>
+      <p class="svc-desc">Evidence-based, medically supervised weight management using modern pharmacotherapy — including GLP-1 receptor agonist prescribing.</p>
+      <ul class="svc-list">
+        <li>GLP-1 RA initiation — Ozempic, Mounjaro, Wegovy, Saxenda</li>
+        <li>Structured follow-up, dose titration and monitoring</li>
+        <li>Comprehensive metabolic health assessment</li>
+        <li>Lifestyle and pharmacological optimisation strategies</li>
+        <li>Pre-bariatric evaluation and post-surgical follow-up</li>
+      </ul>
+      <span class="svc-cta">Obesity medicine <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+
+    <a class="svc-card reveal" href="cardiology.html">
+      <div class="svc-index">04</div>
+      <div class="svc-icon">❤️</div>
+      <h3 class="svc-title">Cardiology</h3>
+      <p class="svc-desc">Interventional cardiology expertise delivering comprehensive heart and cardiovascular care locally in Kildare.</p>
+      <ul class="svc-list">
+        <li>Assessment of chest pain, palpitations and breathlessness</li>
+        <li>Hypertension investigation and management</li>
+        <li>Arrhythmia evaluation, ECG and Holter monitoring</li>
+        <li>Heart failure assessment and cardiovascular risk reduction</li>
+        <li>Post-procedural and post-intervention follow-up care</li>
+      </ul>
+      <span class="svc-cta">Cardiology services <svg viewBox="0 0 24 24" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+    </a>
+  </div>
+</section>
+
+
+<!-- ════════════════════ GLP-1 ARTICLE ════════════════════ -->
+<section id="glp1-article" style="display:none">
+  <div class="article-inner">
+
+    <div class="article-label reveal">
+      <span class="article-tag">Clinical Advisory</span>
+      <span class="article-date">Published by Dr S.K.H. Kazmi — Consultant Endocrinologist &amp; Obesity Specialist</span>
+    </div>
+
+    <h2 class="article-title reveal">GLP-1 Receptor Agonists: Safe Prescribing &amp;<br>The Risks of Unregulated Use</h2>
+
+    <div class="article-lead reveal">
+      <p>GLP-1 receptor agonists (GLP-1 RAs) — including semaglutide (Ozempic®, Wegovy®), tirzepatide (Mounjaro®) and liraglutide (Saxenda®) — represent a significant advance in the treatment of type 2 diabetes and obesity. However, the rapid proliferation of online prescribing platforms, compounding pharmacies, and over-the-counter acquisition channels has created a patient safety emergency that demands urgent clinical attention.</p>
+    </div>
+
+    <div class="article-body">
+
+      <div class="article-col">
+
+        <div class="article-block reveal">
+          <h3>What GLP-1 RAs Are — and Are Not</h3>
+          <p>GLP-1 receptor agonists mimic the endogenous incretin hormone glucagon-like peptide 1, stimulating glucose-dependent insulin secretion, suppressing glucagon, slowing gastric emptying, and producing central satiety signals. In clinical trials, semaglutide 2.4 mg (Wegovy) produced mean body weight reduction of <strong>14.9%</strong> at 68 weeks (STEP-1; Wilding et al., <em>NEJM</em> 2021), while tirzepatide demonstrated up to <strong>22.5%</strong> weight loss in the SURMOUNT-1 trial (Jastreboff et al., <em>NEJM</em> 2022).</p>
+          <p>These are powerful, injectable prescription medications classified as controlled therapeutic agents by the HPRA (Ireland) and MHRA (UK). They are not nutritional supplements, lifestyle aids, or cosmetic treatments. Their use must be embedded within structured clinical management.</p>
+        </div>
+
+        <div class="article-block reveal">
+          <h3>Established Contraindications and Safety Signals</h3>
+          <p>All GLP-1 RAs carry a <strong>black-box warning</strong> from the FDA and class warning from the EMA regarding thyroid C-cell tumours observed in rodent studies. Although causality in humans has not been definitively established, prescribers are required to screen for:</p>
+          <ul class="article-list">
+            <li>Personal or family history of medullary thyroid carcinoma (MTC)</li>
+            <li>Multiple Endocrine Neoplasia syndrome type 2 (MEN-2)</li>
+            <li>Active or history of pancreatitis</li>
+            <li>Severe gastrointestinal disease</li>
+            <li>Pregnancy or planned conception</li>
+            <li>Diabetic retinopathy (rapid glycaemic improvement may worsen retinopathy acutely)</li>
+          </ul>
+          <p>Post-marketing surveillance data published in <em>JAMA Internal Medicine</em> (2024) identified a significantly elevated risk of non-arteritic anterior ischaemic optic neuropathy (NAION) in semaglutide users — a finding now under active review by the FDA.</p>
+        </div>
+
+        <div class="article-block reveal">
+          <h3>The Drug Shortage Crisis: A Direct Consequence of Unregulated Prescribing</h3>
+          <p>The global demand surge driven by cosmetic weight-loss use has created critical shortages of semaglutide and liraglutide, directly depriving patients with type 2 diabetes and established cardiovascular risk of their first-line, evidence-based therapies. The HPRA and HSE Ireland have issued repeated supply alerts since 2022. The NHS in the UK has prioritised supply for diabetes management over obesity indications.</p>
+          <p>Clinicians and patients must understand that obtaining GLP-1 RAs through private online portals for cosmetic weight loss directly displaces supply from those with the greatest clinical need.</p>
+        </div>
+
+      </div>
+
+      <div class="article-col">
+
+        <div class="article-warning reveal">
+          <div class="warning-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+          <h4>Key Safety Warnings</h4>
+          <ul>
+            <li><strong>Unverified online platforms</strong> cannot perform the physical examination, baseline bloods (HbA1c, thyroid function, lipid panel, renal function), or screen for contraindications required before initiation.</li>
+            <li><strong>Compounded semaglutide</strong> obtained outside licensed pharmacy networks is not bioequivalent to licensed products and lacks quality assurance. The FDA and MHRA have both issued explicit warnings against compounded GLP-1 products.</li>
+            <li><strong>Dose escalation without clinical oversight</strong> significantly increases the risk of severe nausea, vomiting, dehydration, gastroparesis, and acute pancreatitis.</li>
+            <li><strong>Abrupt cessation</strong> without structured follow-up results in rapid weight regain — typically exceeding baseline weight within 12 months (STEP-4 extension data, 2022).</li>
+            <li><strong>Sarcopenia risk:</strong> Without protein-optimised dietary guidance and resistance exercise, GLP-1 RA-induced weight loss includes significant lean muscle mass — a serious concern, particularly in older adults.</li>
+          </ul>
+        </div>
+
+        <div class="article-block reveal">
+          <h3>What Safe, Regulated Prescribing Looks Like</h3>
+          <p>Guidance from NICE (TA875 — tirzepatide, 2024; TA664 — semaglutide, 2023), the European Association for the Study of Obesity (EASO), and the Irish Society for Clinical Nutrition &amp; Metabolism (IrSCNM) is explicit: GLP-1 RA prescribing for obesity requires:</p>
+          <ul class="article-list">
+            <li>Baseline BMI ≥30 kg/m² (or ≥27 with weight-related comorbidity)</li>
+            <li>Comprehensive metabolic blood panel prior to initiation</li>
+            <li>Contraindication screening by a qualified clinician</li>
+            <li>Structured dose titration schedule with clinical review at each step</li>
+            <li>Dietary and physical activity counselling throughout treatment</li>
+            <li>Regular monitoring — HbA1c, renal function, hepatic enzymes, cardiovascular risk</li>
+            <li>A clear long-term management plan addressing what happens when medication is discontinued</li>
+          </ul>
+        </div>
+
+        <div class="article-block reveal">
+          <h3>The Cardiometabolic Dimension</h3>
+          <p>The SELECT cardiovascular outcomes trial (Lincoff et al., <em>NEJM</em> 2023) demonstrated that semaglutide 2.4 mg reduced major adverse cardiovascular events (MACE) by <strong>20%</strong> in overweight/obese adults with pre-existing cardiovascular disease. This cardioprotective evidence reinforces the case for these agents being prescribed within a combined cardiology–endocrinology framework — not in isolation by non-specialist platforms.</p>
+          <p>For patients with both obesity and cardiac risk, integrated care between a Consultant Endocrinologist and Consultant Cardiologist is the gold standard of management.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="article-cta reveal">
+      <div class="article-cta-text">
+        <strong>Considering GLP-1 therapy?</strong>
+        Dr Kazmi offers specialist-led obesity and diabetes consultations, including full medical assessment, safe GLP-1 RA prescribing, structured follow-up, and integrated cardiometabolic management.
+      </div>
+      <a href="#appointment" class="article-cta-btn">Book a Consultation</a>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ════════════════════ TEAM ════════════════════ -->
+<section id="team" style="display:none">
+  <div class="team-bg-ring"></div>
+  <div class="team-bg-ring"></div>
+
+  <div class="team-head reveal">
+    <span class="section-tag">Meet the Consultants</span>
+    <h2 class="section-title light">Our <em>Expert</em> Team</h2>
+    <p class="section-lead light">
+      Every patient is seen personally by a fully qualified, specialist-registered consultant —
+      no registrars, no trainees, no exceptions.
+    </p>
+  </div>
+
+  <div class="team-grid">
+    <div class="team-card reveal">
+      <img class="team-photo" src="dr-kazmi.jpg" alt="Dr Syed Kashif Hussain Kazmi, Consultant Endocrinologist at Naas Cardiology and Endocrinology Clinic" loading="lazy">
+      <div class="team-spec">Endocrinology · Diabetes · Obesity Medicine</div>
+      <h3 class="team-name">Dr Syed Kashif Hussain Kazmi</h3>
+      <p class="team-creds">MRCPI (Ireland) &nbsp;·&nbsp; MRCP (UK) &nbsp;·&nbsp; FRCP (Glasgow) &nbsp;·&nbsp; CCT Diabetes, Endocrinology &amp; Internal Medicine (UK) &nbsp;·&nbsp; 20+ Years Experience</p>
+      <p class="team-bio">
+        Dr Kazmi has over 20 years of clinical experience and completed his higher specialist
+        training through the Cambridge/East of England Deanery, with significant experience at
+        Addenbrooke's Hospital, Cambridge University Hospitals — a premier UK academic endocrine
+        centre. He organised the Adrenal and Pituitary MDTs for the East of England region.
+      </p>
+      <p class="team-bio">
+        He is a Fellow of the Royal College of Physicians (Glasgow), holds MRCP from both Ireland
+        and the UK (Endocrinology &amp; Diabetes), and is a member of ABCD, Society for
+        Endocrinology UK and Diabetes UK. He has prescribed and personally monitored GLP-1
+        receptor agonist therapy in over <strong>3,500 patients in the past year</strong> —
+        one of the most extensive clinical GLP-1RA portfolios in Ireland. Expert in Tier 3
+        obesity, insulin pump optimisation, CGM, and complex pituitary, adrenal and thyroid disorders.
+      </p>
+      <p class="team-reg">IMC: 213626 &nbsp;·&nbsp; GMC: 6117450 &nbsp;·&nbsp; Specialist Register Ireland &amp; UK</p>
+      <div class="team-tags">
+        <span class="team-tag">GLP-1 / Ozempic</span>
+        <span class="team-tag">Type 1 & 2 Diabetes</span>
+        <span class="team-tag">Thyroid</span>
+        <span class="team-tag">Insulin Pump</span>
+        <span class="team-tag">Adrenal</span>
+        <span class="team-tag">PCOS</span>
+        <span class="team-tag">Male Hypogonadism</span>
+        <span class="team-tag">CGM</span>
+      </div>
+    </div>
+
+    <div class="team-card reveal">
+      <img class="team-photo" src="dr-kalyar.png" alt="Dr Imtiaz Ali Kalyar, Consultant Interventional Cardiologist at Naas Cardiology and Endocrinology Clinic" loading="lazy">
+      <div class="team-spec">Interventional Cardiology · General Cardiology</div>
+      <h3 class="team-name">Dr Imtiaz Ali Kalyar</h3>
+      <p class="team-creds">MRCP (London) &nbsp;·&nbsp; FRCP (London) &nbsp;·&nbsp; Interventional Cardiology Fellowship, Queen Alexandra Hospital, Portsmouth</p>
+      <p class="team-bio">
+        Dr Kalyar has 16 years of interventional cardiology experience and over 9 years at
+        full consultant level across NHS trusts in the UK. He has performed over 1,459 PCIs
+        as first operator including 406 Primary PCIs, and is an independent CTO, Rotational
+        Atherectomy and IVL operator. He performs IVUS, FFR, iFR and OCT independently.
+      </p>
+      <p class="team-bio">
+        He has been Principal Investigator for the SENIOR-RITA Trial (published in the
+        <em>New England Journal of Medicine</em>, 2024), BLADE, DUAL ACS, and ZODIAC trials.
+        His combined model with Dr Kazmi enables integrated, one-stop cardiometabolic
+        management — of particular value for GPs managing patients with overlapping
+        cardiovascular disease, diabetes and obesity.
+      </p>
+      <p class="team-reg">IMC: 102093 &nbsp;·&nbsp; GMC: 6082421 &nbsp;·&nbsp; Specialist Interventional Cardiologist</p>
+      <div class="team-tags">
+        <span class="team-tag">Chest Pain</span>
+        <span class="team-tag">Hypertension</span>
+        <span class="team-tag">Arrhythmia</span>
+        <span class="team-tag">Heart Failure</span>
+        <span class="team-tag">ECG / Holter</span>
+        <span class="team-tag">Cardiovascular Risk</span>
+        <span class="team-tag">Post-Intervention</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════ BOOKING FORM ════════════════════ -->
+<section id="appointment">
+  <div class="booking-layout">
+    <div class="booking-info reveal">
+      <span class="section-tag">Patient Appointments</span>
+      <h2 class="section-title">Request an <em>Appointment</em></h2>
+      <p class="section-lead">
+        Complete the form and our team will contact you within one working day
+        to confirm your appointment time and answer any queries.
+      </p>
+      <p class="adult-notice">Our specialist outpatient services are primarily for adult patients aged 18 years and over.</p>
+
+      <div class="booking-perks">
+        <div class="perk">
+          <div class="perk-icon">📅</div>
+          <div class="perk-text">
+            <strong>Prompt Scheduling</strong>
+            <p>We aim to offer appointments within days of your request.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">🔒</div>
+          <div class="perk-text">
+            <strong>Confidential & GDPR Compliant</strong>
+            <p>Your personal and health information is handled with complete discretion.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">💳</div>
+          <div class="perk-text">
+            <strong>Self-Pay & Insured Patients Welcome</strong>
+            <p>We accept VHI, Laya, Irish Life Health, and self-pay arrangements.</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">✉️</div>
+          <div class="perk-text">
+            <strong>Direct Enquiries</strong>
+            <p><a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="form-shell">
+        <!-- Progress bar -->
+        <div class="f-progress" id="formProgress" aria-label="Form completion">
+          <div class="f-progress-step active" id="prog1"></div>
+          <div class="f-progress-step" id="prog2"></div>
+          <div class="f-progress-step" id="prog3"></div>
+        </div>
+
+        <h3 class="form-head-title">Patient Appointment Request</h3>
+        <p class="form-head-sub">All fields marked <span style="color:var(--gold)">*</span> are required. We respond within one working day.</p>
+
+        <p class="form-head-sub-advisory">Please provide only brief information. GP referral letters and clinical correspondence should be sent securely via Healthmail where appropriate. Do not include urgent symptoms or detailed medical records in this form.</p>
+
+        <form id="bookingForm" novalidate autocomplete="on">
+
+          <!-- Personal Details -->
+          <div class="f-row">
+            <div class="f-group" id="g-firstName">
+              <label class="f-label" for="firstName">First Name <span class="req">*</span></label>
+              <input type="text" id="firstName" name="firstName" class="f-input" placeholder="First name" required autocomplete="given-name">
+              <span class="f-error">Please enter your first name</span>
+            </div>
+            <div class="f-group" id="g-lastName">
+              <label class="f-label" for="lastName">Last Name <span class="req">*</span></label>
+              <input type="text" id="lastName" name="lastName" class="f-input" placeholder="Last name" required autocomplete="family-name">
+              <span class="f-error">Please enter your last name</span>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-group" id="g-dob">
+              <label class="f-label" for="dob">Date of Birth <span class="req">*</span></label>
+              <input type="date" id="dob" name="dob" class="f-input" required autocomplete="bday">
+              <span class="f-error">Please enter your date of birth</span>
+            </div>
+            <div class="f-group" id="g-phone">
+              <label class="f-label" for="phone">Phone Number <span class="req">*</span></label>
+              <input type="tel" id="phone" name="phone" class="f-input" placeholder="+353 xx xxx xxxx" required autocomplete="tel">
+              <span class="f-error">Please enter a valid phone number</span>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-group f-group--full span2" id="g-email" style="grid-column:1/-1">
+              <label class="f-label" for="email">Email Address <span class="req">*</span></label>
+              <input type="email" id="email" name="email" class="f-input" placeholder="your@email.com" required autocomplete="email">
+              <span class="f-error">Please enter a valid email address</span>
+            </div>
+          </div>
+
+          <div class="f-row">
+            <div class="f-group" id="g-gp">
+              <label class="f-label" for="gp">GP Name &amp; Practice</label>
+              <input type="text" id="gp" name="gp" class="f-input" placeholder="Dr Smith, Naas Medical Centre">
+            </div>
+            <div class="f-group" id="g-insurance">
+              <label class="f-label" for="insurance">Health Insurance</label>
+              <select id="insurance" name="insurance" class="f-select">
+                <option value="">Select insurer…</option>
+                <option>VHI Healthcare</option>
+                <option>Laya Healthcare</option>
+                <option>Irish Life Health</option>
+                <option>HSF Health Plan</option>
+                <option>Self-Pay</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Clinical Details -->
+          <div class="f-group" id="g-specialty">
+            <label class="f-label" for="specialty">Specialty Required <span class="req">*</span></label>
+            <select id="specialty" name="specialty" class="f-select" required>
+              <option value="">Select a specialty…</option>
+              <option>Interventional Cardiology</option>
+              <option>General Cardiology</option>
+              <option>Endocrinology</option>
+              <option>Diabetes Management</option>
+              <option>Obesity Medicine / GLP-1 Treatment</option>
+              <option>Combined Cardiometabolic Consultation</option>
+              <option>Unsure — Please Advise</option>
+            </select>
+            <span class="f-error">Please select a specialty</span>
+          </div>
+
+          <div class="f-row">
+            <div class="f-group">
+              <label class="f-label" for="urgency">Urgency</label>
+              <select id="urgency" name="urgency" class="f-select">
+                <option value="routine">Routine</option>
+                <option value="soon">Soon (within 2 weeks)</option>
+                <option value="urgent">Urgent (within 1 week)</option>
+              </select>
+            </div>
+            <div class="f-group">
+              <label class="f-label" for="preferred">Preferred Day</label>
+              <select id="preferred" name="preferred" class="f-select">
+                <option>Sunday</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="f-group" id="g-reason">
+            <label for="message" class="f-label">Brief reason for enquiry <span class="req">*</span></label>
+            <textarea id="reason" name="reason" class="f-textarea" rows="4" placeholder="Please provide a brief reason only. Do not include urgent symptoms, detailed medical history, test results, images, or highly sensitive clinical information." required></textarea>
+            <span class="f-error">Please describe the reason for your referral</span>
+          </div>
+
+          <div class="f-group">
+            <label class="f-label" for="history">Relevant Medical History &amp; Current Medications</label>
+            <textarea id="history" name="history" class="f-textarea" rows="3" placeholder="Current medications, relevant diagnoses, recent investigations (optional)…"></textarea>
+          </div>
+
+          <!-- Consent -->
+          <div class="consent-row" id="g-consent">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">
+              I consent to Naas Cardiology and Endocrinology Clinic processing my personal and health
+              information for the purpose of arranging my appointment and providing clinical care,
+              in accordance with GDPR and their Privacy Policy. <span style="color:var(--gold)">*</span>
+            </label>
+          </div>
+
+          <button type="submit" class="f-submit" id="submitBtn">
+            Submit Appointment Request
+          </button>
+
+          <p class="form-warning">Please do not use this form for urgent medical problems. In an emergency, call 999/112 or attend the nearest Emergency Department.</p>
+
+        </form>
+
+        <!-- Success state -->
+        <div class="f-success" id="formSuccess">
+          <div class="success-ring">✓</div>
+          <h3 class="success-h">Request Received</h3>
+          <p class="success-p">
+            Thank you for your appointment request. A member of our team will contact
+            you within <strong>one working day</strong> to confirm your appointment
+            and provide any further information required.
+            <br><br>
+            For urgent clinical queries, please contact Dr Kazmi directly:<br>
+            <a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════ GP REFERRALS ════════════════════ -->
+<section id="referrals">
+  <div class="referrals-layout">
+    <div class="reveal">
+      <span class="section-tag">For General Practitioners</span>
+      <h2 class="section-title light">GP <em>Referral</em> Pathway</h2>
+      <p class="section-lead light">
+        We welcome referrals for any patient who may benefit from specialist review in
+        endocrinology, diabetes, obesity medicine or cardiology. Our aim is to provide
+        prompt, clinically useful consultations that actively support your ongoing
+        management of the patient.
+      </p>
+
+      <div class="ref-steps">
+        <div class="ref-step">
+          <span class="ref-n">01</span>
+          <div>
+            <strong>Send Referral by Email or Letter</strong>
+            <p>Include relevant clinical history, investigations, and reason for referral. Referrals accepted via Healthmail or standard post.</p>
+          </div>
+        </div>
+        <div class="ref-step">
+          <span class="ref-n">02</span>
+          <div>
+            <strong>We Contact the Patient Directly</strong>
+            <p>Appointments offered promptly, with priority given to urgent and semi-urgent referrals.</p>
+          </div>
+        </div>
+        <div class="ref-step">
+          <span class="ref-n">03</span>
+          <div>
+            <strong>Comprehensive Report Returned</strong>
+            <p>Structured, clinically useful correspondence returned to your practice following each visit.</p>
+          </div>
+        </div>
+        <div class="ref-step">
+          <span class="ref-n">04</span>
+          <div>
+            <strong>Direct Consultant Access for Queries</strong>
+            <p>For clinical discussions about a particular patient, Dr Kazmi is available by direct email at any time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="reveal">
+      <div class="ref-card">
+        <div class="contact-row">
+          <span class="ci">✉️</span>
+          <div class="cd">
+            <strong>Professional Email (Healthmail)</strong>
+            <p><a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a></p>
+            <p style="font-size:0.78rem; opacity:0.6; margin-top:4px;">Referrals, clinical queries & correspondence</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ci">📍</span>
+          <div class="cd">
+            <strong>Clinic Address</strong>
+            <p>Suite 5, Vista Primary Care Clinic<br>
+               Ballymore Road, Naas<br>
+               Co. Kildare, W91 E6H2</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ci">📞</span>
+          <div class="cd">
+            <strong>Phone</strong>
+            <p><a href="tel:0896567597" style="color:var(--gold);">089 656 7597</a></p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ci">🕐</span>
+          <div class="cd">
+            <strong>Clinic Hours</strong>
+            <p>Sundays 9am–5pm. Appointment required.</p>
+          </div>
+        </div>
+        <div class="contact-row">
+          <span class="ci">🏥</span>
+          <div class="cd">
+            <strong>Accepted Referrals</strong>
+            <p>All patients suitable for private specialist assessment in endocrinology, diabetes, obesity medicine, or cardiology</p>
+          </div>
+        </div>
+
+        <a href="mailto:Syed.Kazmi@healthmail.ie?subject=GP Referral — Naas Cardiology %26 Endocrinology Clinic&body=Dear Dr Kazmi,%0A%0APatient Name:%0ADOB:%0AReason for Referral:%0A%0ARelevant History:%0A%0AYours sincerely," class="btn-primary" style="display:block; text-align:center; margin-top:28px;">
+          Send GP Referral
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ════════════════════ FAQ ════════════════════ -->
+<section class="faq-section" id="faq" aria-label="Frequently Asked Questions">
+  <div class="faq-inner">
+    <span class="section-tag">Patient Information</span>
+    <h2 class="section-title" style="margin-bottom:40px;">Frequently Asked <em>Questions</em></h2>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do I need a GP referral to see a specialist?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>A GP referral is strongly recommended and preferred. It allows us to review your full medical history, current medications, and the clinical reason for referral before your appointment — leading to a more efficient and thorough consultation. However, self-referrals are also accepted. If you are self-referring, please bring any relevant test results, letters, or medical records to your appointment.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How quickly can I get an appointment?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>We aim to offer appointments within 1–4 weeks of receiving a referral, depending on clinical urgency and clinic availability. Urgent referrals are prioritised. Please contact us directly at <a href="mailto:Syed.Kazmi@healthmail.ie" style="color:#9C7228;">Syed.Kazmi@healthmail.ie</a> or <a href="tel:0896567597" style="color:#9C7228;">089 656 7597</a> if your situation is time-sensitive.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What conditions do you treat?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>Our endocrinology service covers: Type 1 and Type 2 diabetes, obesity and weight management (including GLP-1 therapies), thyroid disorders (hypothyroidism, hyperthyroidism, nodules), adrenal conditions (Cushing's, Addison's), polycystic ovary syndrome (PCOS), male hypogonadism, pituitary disorders, osteoporosis, and complex lipid disorders.</p>
+        <p>Our cardiology service covers: chest pain assessment, hypertension, arrhythmia, heart failure, ECG and Holter monitoring, cardiovascular risk assessment, and post-intervention follow-up.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do you accept VHI, Laya, Irish Life Health, or Aviva?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>Please contact us directly to confirm your specific plan's coverage before attending. Insurer panels and coverage levels change regularly, and we recommend calling your insurer directly to verify whether our consultants are covered under your plan before booking.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Where are you located and is there parking?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>We are located at Suite 5, Vista Primary Care Clinic, Ballymore Road, Naas, Co. Kildare (Eircode: W91 E6H2). Free car parking is available on-site at Vista Primary Care. The clinic is accessible by car from the N7 and is served by Bus Éireann routes in Naas town.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Can I get a prescription on my first visit?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>This depends entirely on the clinical assessment. In many cases, particularly for diabetes or thyroid conditions where investigations are pending, we may request blood tests and imaging before initiating treatment. However, where the clinical picture is clear, treatment may be initiated at the first consultation. Your consultant will discuss the plan with you at the appointment.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What should I bring to my appointment?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>Please bring: your GP referral letter (if applicable), a list of your current medications, any recent blood test results, relevant imaging or scan reports, your insurance card (if applicable), and a list of any questions you wish to discuss. If you use a continuous glucose monitor (CGM) or insulin pump, please bring the device or access to its data.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">Do you treat children, or is this an adults-only service?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>Our clinic primarily serves adult patients (18 years and over). For paediatric endocrinology or cardiology, please discuss with your GP for referral to the appropriate paediatric specialist service.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">What is the difference between a consultant and a registrar?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>A consultant is a fully qualified specialist who has completed all postgraduate training and is on the Specialist Register of the Medical Council of Ireland. At our clinic, all consultations are conducted by our named consultants — Dr Kazmi and Dr Kalyar — not by registrars, junior doctors, or locum staff. You will always see the consultant named in your referral.</p>
+      </div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">How do I get my GP to refer me?<span class="faq-icon">+</span></summary>
+      <div class="faq-answer">
+        <p>Ask your GP to send a referral letter to our clinic. GPs can send referrals by email to <a href="mailto:Syed.Kazmi@healthmail.ie" style="color:#9C7228;">Syed.Kazmi@healthmail.ie</a>. We provide a GP referral email template — your GP can use their own format or follow our suggested template available on the <a href="#referrals" style="color:#9C7228;">GP Referrals section</a> of this page. We will contact the patient directly once the referral is received to arrange an appointment.</p>
+      </div>
+    </details>
+  </div>
+</section>
+
+
+<!-- ════════════════════ CONTACT ════════════════════ -->
+<section id="contact">
+  <div class="contact-layout">
+    <div class="contact-panel reveal">
+      <span class="section-tag">Find Us</span>
+      <h2 class="section-title" style="font-size:2.4rem;">Clinic <em>Location</em></h2>
+      <p class="section-lead" style="margin-bottom:40px;">
+        Conveniently located within Vista Primary Care Clinic in Naas, easily
+        accessible from across Co. Kildare and the wider Leinster region, with free on-site parking.
+      </p>
+
+      <div class="booking-perks">
+        <div class="perk">
+          <div class="perk-icon">📍</div>
+          <div class="perk-text">
+            <strong>Address</strong>
+            <p>Suite 5, Vista Primary Care Clinic<br>Ballymore Road, Naas, Co. Kildare, W91 E6H2</p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">✉️</div>
+          <div class="perk-text">
+            <strong>Email</strong>
+            <p><a href="mailto:Syed.Kazmi@healthmail.ie" style="color:var(--gold);text-decoration:none;">Syed.Kazmi@healthmail.ie</a></p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">📞</div>
+          <div class="perk-text">
+            <strong>Phone</strong>
+            <p><a href="tel:0896567597" style="color:var(--gold);text-decoration:none;">089 656 7597</a></p>
+          </div>
+        </div>
+        <div class="perk">
+          <div class="perk-icon">🚗</div>
+          <div class="perk-text">
+            <strong>Getting Here</strong>
+            <p>Free on-site parking. Close to Naas town centre with good public transport connections.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-wrap">
+      <iframe
+        src="https://maps.google.com/maps?q=Vista+Primary+Care+Clinic,+Ballymore+Road,+Naas,+Co.+Kildare&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Naas Cardiology and Endocrinology Clinic Location — Vista Primary Care, Ballymore Road, Naas">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+
+<section id="fees" class="pad fees-section">
+  <div class="max">
+    <span class="section-tag">Fees &amp; Insurance</span>
+    <h2 class="section-title">Private Appointments &amp; <em>Insurance</em></h2>
+    <p class="section-lead">Self-pay appointments are available. Patients with private health insurance are advised to check directly with their insurer regarding outpatient specialist consultation cover, as reimbursement depends on individual policy terms.</p>
+    <p class="section-lead" style="margin-top:16px;">Please contact the clinic for current consultation fees, payment information and cancellation policy.</p>
+    <p class="adult-notice" style="color:#4A4A68; margin-top:20px;">Our specialist outpatient services are primarily for adult patients aged 18 years and over.</p>
+  </div>
+</section>
+
+
+<!-- ════════════════════ FOOTER ════════════════════ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="footer-brand-name">Naas Cardiology &<br>Endocrinology Clinic</span>
+      <span class="footer-brand-sub">Private Specialist Services</span>
+      <p>
+        Consultant-delivered private specialist care in Endocrinology, Diabetes,
+        Obesity Medicine and Cardiology. Serving Naas, Co. Kildare and the
+        wider Leinster region.
+      </p>
+      <div class="footer-badges">
+        <span class="footer-badge">MRCPI</span>
+        <span class="footer-badge">FRCP Glasgow</span>
+        <span class="footer-badge">CCT UK</span>
+        <span class="footer-badge">IMC Registered</span>
+        <span class="footer-badge">GMC Registered</span>
+        <span class="footer-badge">Specialist Register Ireland & UK</span>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h5>Services</h5>
+      <ul>
+        <li><a href="endocrinology.html">Endocrinology</a></li>
+        <li><a href="endocrinology.html">Diabetes</a></li>
+        <li><a href="endocrinology.html">Obesity Medicine</a></li>
+        <li><a href="cardiology.html">Cardiology</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Clinic</h5>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#doctors">Our Consultants</a></li>
+        <li><a href="referrers.html">For Referrers</a></li>
+        <li><a href="#appointment">Book Appointment</a></li>
+        <li><a href="blog.html">Clinical Blog</a></li>
+        <li><a href="policies.html">Clinic Policies</a></li>
+        <li><a href="#contact">Location</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:Syed.Kazmi@healthmail.ie">Syed.Kazmi@healthmail.ie</a></li>
+        <li><a href="tel:0896567597">089 656 7597</a></li>
+        <li><a href="https://maps.google.com/maps?q=Vista+Primary+Care+Clinic,+Ballymore+Road,+Naas,+Co.+Kildare" target="_blank" rel="noopener noreferrer">Suite 5, Vista Primary Care</a></li>
+        <li>Ballymore Road, Naas</li>
+        <li>Co. Kildare, W91 E6H2</li>
+        <li>Sundays 9am–5pm. Appointment required.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-legal-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="cookie-policy.html">Cookie Policy</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="medical-disclaimer.html">Medical Disclaimer</a>
+    <a href="complaints.html">Complaints</a>
+    <a href="fees.html">Fees &amp; Insurance</a>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2026 Naas Cardiology and Endocrinology Clinic. All rights reserved.</p>
+    <p class="reg">Dr Kazmi IMC: 213626 &nbsp;·&nbsp; Dr Kalyar IMC: 102093 &nbsp;·&nbsp; GMC: 6117450 &nbsp;·&nbsp; Regulated by the Medical Council of Ireland &nbsp;·&nbsp; This practice is covered by medical indemnity insurance.</p>
+  </div>
+  <p class="footer-emergency">
+    This website is for informational purposes only and does not constitute medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional. In a medical emergency, call 999 or 112.
+  </p>
+  <p class="footer-accessibility" style="max-width:1280px;margin:8px auto 0;font-size:0.68rem;color:rgba(255,255,255,0.25);">
+    We aim to meet WCAG 2.1 Level AA accessibility standards. <a href="mailto:Syed.Kazmi@healthmail.ie" style="color:rgba(196,144,60,0.55);text-decoration:underline;">Contact us</a> if you encounter any barriers.
+  </p>
+</footer>
+
+
+<!-- ════════════════════ JS ════════════════════ -->
+<script>
+  /* ── Scroll-aware nav ── */
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 55);
+  }, { passive: true });
+
+  /* ── Reveal on scroll ── */
+  const revealEls = document.querySelectorAll('.reveal');
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('visible'), i * 90);
+        revealObs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -50px 0px' });
+  revealEls.forEach(el => revealObs.observe(el));
+
+  /* ── Smooth scroll ── */
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      e.preventDefault();
+      window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - 78, behavior: 'smooth' });
+      // close mobile menu if open
+      document.getElementById('navLinks').classList.remove('open');
+      document.getElementById('menuBtn').setAttribute('aria-expanded', 'false');
+    });
+  });
+
+  /* ── Mobile menu ── */
+  const menuBtn = document.getElementById('menuBtn');
+  const navLinks = document.getElementById('navLinks');
+  menuBtn.addEventListener('click', () => {
+    const open = navLinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', open.toString());
+  });
+  document.addEventListener('click', (e) => {
+    if (!navLinks.contains(e.target) && !menuBtn.contains(e.target) && navLinks.classList.contains('open')) {
+      navLinks.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* ── Form: progress update ── */
+  function updateProgress() {
+    const form = document.getElementById('bookingForm');
+    const required = form.querySelectorAll('[required]');
+    let filled = 0;
+    required.forEach(f => {
+      const v = f.type === 'checkbox' ? f.checked : f.value.trim();
+      if (v) filled++;
+    });
+    const pct = filled / required.length;
+    document.getElementById('prog1').classList.toggle('active', pct > 0);
+    document.getElementById('prog2').classList.toggle('active', pct >= 0.4);
+    document.getElementById('prog3').classList.toggle('active', pct >= 0.85);
+  }
+
+  /* ── Form: field validation ── */
+  function validateField(field) {
+    const group = field.closest('.f-group');
+    if (!group) return true;
+
+    let valid = true;
+    const v = field.type === 'checkbox' ? field.checked : field.value.trim();
+
+    if (field.required) {
+      if (field.type === 'email') {
+        valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v);
+      } else if (field.type === 'checkbox') {
+        valid = field.checked;
+      } else {
+        valid = v.length > 0;
+      }
+    }
+
+    group.classList.toggle('has-error', !valid);
+    return valid;
+  }
+
+  /* ── Form: attach listeners ── */
+  const bookingForm = document.getElementById('bookingForm');
+
+  bookingForm.querySelectorAll('input, select, textarea').forEach(field => {
+    field.addEventListener('input', () => { updateProgress(); if (field.closest('.f-group')?.classList.contains('has-error')) validateField(field); });
+    field.addEventListener('blur', () => { if (field.required || field.type === 'email') validateField(field); });
+  });
+
+  /* ── Form: submit ── */
+  // ─────────────────────────────────────────────────────────────
+  // EMAIL SETUP — Formspree (free, no backend needed)
+  // ONE-TIME SETUP (2 minutes):
+  //   1. Go to https://formspree.io/register
+  //   2. Sign up using:  Syed.Kazmi@healthmail.ie
+  //   3. Verify your email (check inbox)
+  //   4. Click "+ New Form", name it "Patient Booking"
+  //   5. Copy the form ID from the endpoint shown
+  //      (looks like:  xpzgdwqk)
+  //   6. Paste it below replacing  YOUR_FORM_ID_HERE
+  // ─────────────────────────────────────────────────────────────
+  const FORMSPREE_ID = 'xaqzedol';
+
+  bookingForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const required = this.querySelectorAll('[required]');
+    let allOk = true;
+    required.forEach(f => { if (!validateField(f)) allOk = false; });
+
+    if (!allOk) {
+      const first = this.querySelector('.f-group.has-error');
+      if (first) first.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.textContent = 'Sending Request…';
+
+    const fd = new FormData(this);
+    const firstName  = fd.get('firstName')  || '';
+    const lastName   = fd.get('lastName')   || '';
+    const dob        = fd.get('dob')        || '';
+    const phone      = fd.get('phone')      || '';
+    const email      = fd.get('email')      || '';
+    const gp         = fd.get('gp')         || 'Not provided';
+    const insurance  = fd.get('insurance')  || '';
+    const specialty  = fd.get('specialty')  || '';
+    const urgency    = fd.get('urgency')    || '';
+    const preferred  = fd.get('preferred')  || '';
+    const reason     = fd.get('reason')     || '';
+    const history    = fd.get('history')    || 'None provided';
+
+    const payload = {
+      _subject: `New Appointment Request — ${firstName} ${lastName} (${specialty})`,
+      _replyto: email,
+      message:
+`NEW APPOINTMENT REQUEST — Naas Cardiology & Endocrinology Clinic
+=================================================================
+
+PATIENT DETAILS
+---------------
+Name          : ${firstName} ${lastName}
+Date of Birth : ${dob}
+Phone         : ${phone}
+Email         : ${email}
+GP / Referrer : ${gp}
+Insurance     : ${insurance}
+
+APPOINTMENT DETAILS
+-------------------
+Specialty     : ${specialty}
+Urgency       : ${urgency}
+Preferred Time: ${preferred}
+
+CLINICAL INFORMATION
+--------------------
+Reason for Appointment:
+${reason}
+
+Medical History / Current Medications:
+${history}
+
+=================================================================
+Submitted via: Naas Clinic Website — ${new Date().toLocaleString('en-IE')}
+`
+    };
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
+        method:  'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body:    JSON.stringify(payload)
+      });
+
+      if (!res.ok) {
+        let msg = `Server error (${res.status})`;
+        try { const j = await res.json(); msg = j.error || msg; } catch {}
+        throw new Error(msg);
+      }
+
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = 'Submit Appointment Request';
+      alert('Sorry, your request could not be sent at this time.\nPlease email us directly at Syed.Kazmi@healthmail.ie\n\nError: ' + err.message);
+      return;
+    }
+
+    // ── Success ──
+    const form    = document.getElementById('bookingForm');
+    const progress = document.getElementById('formProgress');
+    const title   = document.querySelector('.form-head-title');
+    const sub     = document.querySelector('.form-head-sub');
+    if (form)     form.style.display     = 'none';
+    if (progress) progress.style.display = 'none';
+    if (title)    title.style.display    = 'none';
+    if (sub)      sub.style.display      = 'none';
+    const success = document.getElementById('formSuccess');
+    if (success) {
+      success.classList.add('show');
+      success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  });
+</script>
+
+<!-- Cookie Banner -->
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-label="Cookie consent">
+  <div class="cookie-banner-inner">
+    <p>We use cookies to analyse site traffic (Google Analytics). Essential cookies keep the site working. <a href="privacy.html">Privacy Policy</a></p>
+    <div class="cookie-actions">
+      <button id="cookieReject" class="cookie-btn cookie-btn--outline">Essential Only</button>
+      <button id="cookieAccept" class="cookie-btn cookie-btn--primary">Accept All</button>
+    </div>
+  </div>
+</div>
+<script>
+(function(){var SIX_MONTHS=6*30*24*60*60*1000;var consent=localStorage.getItem('cookieConsent');var consentTime=parseInt(localStorage.getItem('cookieConsentTime')||'0',10);var expired=(Date.now()-consentTime)>SIX_MONTHS;if(!consent||expired){document.getElementById('cookieBanner').classList.add('visible');}function loadGA(){/* GA4 placeholder — insert measurement ID when available */}if(consent==='all'&&!expired){loadGA();}document.getElementById('cookieAccept').addEventListener('click',function(){localStorage.setItem('cookieConsent','all');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');loadGA();});document.getElementById('cookieReject').addEventListener('click',function(){localStorage.setItem('cookieConsent','essential');localStorage.setItem('cookieConsentTime',Date.now().toString());document.getElementById('cookieBanner').classList.remove('visible');});})();
+</script>
+</body>
+</html>
