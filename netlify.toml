@@ -4,3 +4,8 @@
 
 [functions]
   node_bundler = "esbuild"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "no-store, no-cache, must-revalidate"
