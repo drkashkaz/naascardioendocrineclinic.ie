@@ -2677,7 +2677,7 @@
     };
 
     try {
-      const res = await fetch('/.netlify/functions/book-appointment', {
+      const res = await fetch('/book-appointment', {
         method:  'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body:    JSON.stringify(payload)
